@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
         <meta property="og:title" content="Tech Jam (Technology, Products and Marketplace)" />
         <meta property="og:description" content="Technology, Marketplace, Products, Innovation, Advices, Tips" />
         {/* Flaticon */}
-        <link rel="shortcut icon" href="/images/lightbulb5.png" />
+        <link rel="shortcut icon" href="/images/techStore.png" />
       </Head>
 
       {/* Header, Main & Footer */}
