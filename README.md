@@ -18,5 +18,23 @@ Header
 
 Hero
 
+	// Flex 
+
+		// Create a DIV
+
+			// Image Function (4 Images)
+			// Next Js Image Links 
+
+		// Create a DIV
+
+			// Headings and Paragraphs
+			// Price and Discount
+
+			// Create a DIV with a classname of flex
+
+				// + and - Button for Allocating how many orders
+				// Cart Icon and Add to Cart
+
+
 
 Footer
