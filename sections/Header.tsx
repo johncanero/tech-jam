@@ -59,7 +59,7 @@ const Header = () => {
 
   return (
     <div>
-      <div className="mx-2 my-6 md:mx-4 lg:mx-5 md:block">
+      <div className="pt-3 mx-2 md:mx-4 lg:mx-5 md:block">
         <header className="flex items-center justify-between h-20 mt-1 md:mt-3 font-ShareTechMono">
           {/* Justify Between: Left */}
           <div className="flex">
@@ -75,7 +75,7 @@ const Header = () => {
                 />
               </Link>
               {/* Heading Title: Tech Jam */}
-              <h1 className="mt-1 ml-6 text-4xl font-bold tracking-widest text-green-400">
+              <h1 className="mt-1 ml-6 text-4xl font-bold text-green-400">
                 Tech Jam
               </h1>
             </div>
@@ -133,6 +133,7 @@ const Header = () => {
 
           <div className="">{renderThemeChanger()}</div>
         </header>
+        <hr className="h-px my-8 border-0 bg-neutral-200 dark:bg-neutral-700"></hr>
       </div>
     </div>
   );
