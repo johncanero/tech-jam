@@ -59,8 +59,8 @@ const Header = () => {
 
   return (
     <div>
-      <div className="mx-2 md:mx-4 lg:mx-5 md:block font-OpenSans">
-        <header className="flex items-center justify-between h-20 mt-1 md:mt-3">
+      <div className="mx-2 my-6 md:mx-4 lg:mx-5 md:block">
+        <header className="flex items-center justify-between h-20 mt-1 md:mt-3 font-ShareTechMono">
           {/* Justify Between: Left */}
           <div className="flex">
             {/* Heading Title Link */}
@@ -75,17 +75,17 @@ const Header = () => {
                 />
               </Link>
               {/* Heading Title: Tech Jam */}
-              <h1 className="mt-1 ml-4 text-4xl font-bold tracking-widest text-green-400 font-OpenSans">
+              <h1 className="mt-1 ml-6 text-4xl font-bold tracking-widest text-green-400">
                 Tech Jam
               </h1>
             </div>
 
-            <ul className="flex gap-10 mt-2 ml-16 text-sm 0 md:gap-9">
+            <ul className="flex gap-12 mt-2 ml-16 text-xl">
               {/* Header Links */}
               <Link
                 rel="noopener noreferrer"
                 href="/"
-                className="mt-1 text-lg font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
+                className="mt-1 font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 Home
               </Link>
@@ -93,7 +93,7 @@ const Header = () => {
               <Link
                 rel="noopener noreferrer"
                 href="/"
-                className="mt-1 text-lg font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
+                className="mt-1 font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 Categories
               </Link>
@@ -101,7 +101,7 @@ const Header = () => {
               <Link
                 rel="noopener noreferrer"
                 href="/"
-                className="mt-1 text-lg font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
+                className="mt-1 font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 How To Buy
               </Link>
@@ -109,14 +109,14 @@ const Header = () => {
               <Link
                 rel="noopener noreferrer"
                 href="/"
-                className="mt-1 text-lg font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
+                className="mt-1 font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
               >About
               </Link>
 
               <Link
                 rel="noopener noreferrer"
                 href="/"
-                className="mt-1 text-lg font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
+                className="mt-1 font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 Contact
               </Link>

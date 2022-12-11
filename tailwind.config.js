@@ -20,7 +20,8 @@ module.exports = {
 
     },
     fontFamily: {
-      OpenSans: ['Open Sans', 'sans-serif'],
+      Roboto: ['Roboto', 'sans-serif'],
+      ShareTechMono: ['ShareTechMono', 'monospace'],
     },
  
   },
