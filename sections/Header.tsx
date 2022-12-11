@@ -92,7 +92,7 @@ const Header = () => {
 
               <Link
                 rel="noopener noreferrer"
-                href="/"
+                href="/categories"
                 className="mt-1 font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 Categories
@@ -100,7 +100,7 @@ const Header = () => {
 
               <Link
                 rel="noopener noreferrer"
-                href="/"
+                href="/howtobuy"
                 className="mt-1 font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 How To Buy
@@ -108,14 +108,14 @@ const Header = () => {
 
               <Link
                 rel="noopener noreferrer"
-                href="/"
+                href="/about"
                 className="mt-1 font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
               >About
               </Link>
 
               <Link
                 rel="noopener noreferrer"
-                href="/"
+                href="/contact"
                 className="mt-1 font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 Contact
