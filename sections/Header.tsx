@@ -80,7 +80,7 @@ const Header = () => {
               </h1>
             </div>
 
-            <ul className="flex gap-10 mt-2 ml-20 text-sm 0 md:gap-9">
+            <ul className="flex gap-10 mt-2 ml-16 text-sm 0 md:gap-9">
               {/* Header Links */}
               <Link
                 rel="noopener noreferrer"
@@ -116,7 +116,7 @@ const Header = () => {
               <Link
                 rel="noopener noreferrer"
                 href="/"
-                className="mt-1 text-lg font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-30"
+                className="mt-1 text-lg font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 Contact
               </Link>
