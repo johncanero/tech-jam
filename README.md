@@ -41,4 +41,5 @@ Footer
 
         // Current Year
 
+            // Current Year Function
             // John Cañero© 2022 All Rights Reserved
