@@ -5,7 +5,6 @@ import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
 import Button from "../components/Button";
 
-
 const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -62,6 +61,8 @@ const Header = () => {
     <div>
       <div className="mx-2 md:mx-4 lg:mx-5 md:block">
         <header className="flex items-center justify-between h-20 mt-1 md:mt-3">
+
+          {/* Heading Title Link */}
           <div className="flex">
             <Link rel="noopener noreferrer" href="/">
               <Image
@@ -72,11 +73,13 @@ const Header = () => {
                 className=""
               />
             </Link>
-            <h1 className="mt-1 ml-4 text-4xl font-bold text-green-400 ">Tech Jam</h1>
+              {/* Heading Title: Tech Jam */}
+              <h1 className="mt-1 ml-4 text-4xl font-bold text-green-400 ">
+                Tech Jam
+              </h1>
           </div>
-          <div className="">
-              {renderThemeChanger()}
-          </div>
+
+          <div className="">{renderThemeChanger()}</div>
         </header>
       </div>
     </div>
