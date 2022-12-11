@@ -59,24 +59,76 @@ const Header = () => {
 
   return (
     <div>
-      <div className="mx-2 md:mx-4 lg:mx-5 md:block">
+      <div className="mx-2 md:mx-4 lg:mx-5 md:block font-OpenSans">
         <header className="flex items-center justify-between h-20 mt-1 md:mt-3">
-
-          {/* Heading Title Link */}
+          {/* Justify Between: Left */}
           <div className="flex">
-            <Link rel="noopener noreferrer" href="/">
-              <Image
-                src="/images/techStore.png"
-                width={50}
-                height={45}
-                alt="aLogo"
-                className=""
-              />
-            </Link>
+            {/* Heading Title Link */}
+            <div className="flex">
+              <Link rel="noopener noreferrer" href="/">
+                <Image
+                  src="/images/techStore.png"
+                  width={50}
+                  height={45}
+                  alt="aLogo"
+                  className=""
+                />
+              </Link>
               {/* Heading Title: Tech Jam */}
-              <h1 className="mt-1 ml-4 text-4xl font-bold text-green-400 ">
+              <h1 className="mt-1 ml-4 text-4xl font-bold tracking-widest text-green-400 font-OpenSans">
                 Tech Jam
               </h1>
+            </div>
+
+            <ul className="flex gap-10 mt-2 ml-20 text-sm 0 md:gap-9">
+              {/* Header Links */}
+              <Link
+                rel="noopener noreferrer"
+                href="/"
+                className="mt-1 text-lg font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
+              >
+                Home
+              </Link>
+
+              <Link
+                rel="noopener noreferrer"
+                href="/"
+                className="mt-1 text-lg font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
+              >
+                Categories
+              </Link>
+
+              <Link
+                rel="noopener noreferrer"
+                href="/"
+                className="mt-1 text-lg font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
+              >
+                How To Buy
+              </Link>
+
+              <Link
+                rel="noopener noreferrer"
+                href="/"
+                className="mt-1 text-lg font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
+              >About
+              </Link>
+
+              <Link
+                rel="noopener noreferrer"
+                href="/"
+                className="mt-1 text-lg font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-30"
+              >
+                Contact
+              </Link>
+
+              {/* <Link
+                rel="noopener noreferrer"
+                href="/"
+                className="mt-1 text-lg font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-30"
+              >
+                Warranty
+              </Link> */}
+            </ul>
           </div>
 
           <div className="">{renderThemeChanger()}</div>
