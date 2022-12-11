@@ -38,3 +38,7 @@ Hero
 
 
 Footer
+
+        // Current Year
+
+            // John Cañero© 2022 All Rights Reserved
