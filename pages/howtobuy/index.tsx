@@ -5,7 +5,7 @@ const index = () => {
   return (
     <div>
       <div className="ml-6">
-        <h1 className="mt-1 text-3xl font-bold tracking-widest font-ShareTechMono dark:text-green-400">
+        <h1 className="mt-1 text-3xl font-bold font-ShareTechMono dark:text-green-400">
           How To Buy
         </h1>
         <div className="max-w-4xl mt-2">
@@ -29,23 +29,33 @@ const index = () => {
           </p>
 
           <p className="mt-2 text-lg text-justify font-Roboto">
-            4. On the checkout page, review the products in your cart or basket to make sure they are the ones you want to buy. You can usually remove items from your cart or basket at this stage if you need to.
+            4. On the checkout page, review the products in your cart or basket
+            to make sure they are the ones you want to buy. You can usually
+            remove items from your cart or basket at this stage if you need to.
           </p>
 
           <p className="mt-2 text-lg text-justify font-Roboto">
-            5. After you have reviewed your cart or basket, enter your payment and shipping information. This will usually include your name, billing address, and credit card information.
+            5. After you have reviewed your cart or basket, enter your payment
+            and shipping information. This will usually include your name,
+            billing address, and credit card information.
           </p>
 
           <p className="mt-2 text-lg text-justify font-Roboto">
-            6. Once you have entered all the necessary information, review it again to make sure everything is correct. If everything looks good, submit your order.
+            6. Once you have entered all the necessary information, review it
+            again to make sure everything is correct. If everything looks good,
+            submit your order.
           </p>
 
           <p className="mt-2 text-lg text-justify font-Roboto">
-            7. After you have submitted your order, you should receive a confirmation email or message from the store, along with details of your order and an estimated delivery date.
+            7. After you have submitted your order, you should receive a
+            confirmation email or message from the store, along with details of
+            your order and an estimated delivery date.
           </p>
-          
+
           <p className="mt-2 text-lg text-justify font-Roboto">
-            8. Keep an eye on your email or the store's website for updates on your order, and be sure to contact the store if you have any questions or concerns.
+            8. Keep an eye on your email or the store's website for updates on
+            your order, and be sure to contact the store if you have any
+            questions or concerns.
           </p>
         </div>
       </div>
