@@ -13,9 +13,11 @@ const Hero = () => {
     <div>
       <section>
         <Image src={mainImage} width={400} height={200} alt="" />
-        {products.map((item) => (
+        {products.map((item, index) => (
           <ul key={item.id}>
-            <Image src={item.thumbnail} width={100} height={200} alt="" />
+            <li onClick={() => setValue(index) }>
+              <Image src={item.thumbnail} width={100} height={200} alt="" />
+            </li>
           </ul>
         ))}
       </section>
