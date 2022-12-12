@@ -20,7 +20,6 @@ export const data = [
     thumbnail: "/images/image-product-4-thumbnail.jpg",
   },
 ];
-
 //   {
 //     id: 5,
 //     mainImage: "/images/image-product-5.jpg",

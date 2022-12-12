@@ -9,6 +9,8 @@ const Hero = () => {
 
   const { mainImage } = products[value];
 
+  
+
   return (
     <div>
       <section className="grid grid-cols-1 gap-10 mx-auto lg:grid-cols-2 max-w-7xl">
