@@ -8,6 +8,10 @@ import { useTheme } from "next-themes";
 // Icons
 import { GiHamburgerMenu } from "@react-icons/all-files/gi/GiHamburgerMenu";
 import { FaHome } from "@react-icons/all-files/fa/FaHome";
+import { AiOutlineOrderedList } from "@react-icons/all-files/ai/AiOutlineOrderedList"
+import { AiOutlineQuestionCircle } from "@react-icons/all-files/ai/AiOutlineQuestionCircle"
+import { RiFileHistoryLine } from "@react-icons/all-files/ri/RiFileHistoryLine"
+import { AiOutlineMail } from "@react-icons/all-files/ai/AiOutlineMail";
 
 const MenuDropdown = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -75,7 +79,7 @@ const MenuDropdown = () => {
             className=""
           />
              {/* Heading Title: Tech Jam */}
-             <h1 className="mt-1 ml-4 text-3xl font-bold text-green-400">
+             <h1 className="mt-1 ml-4 text-3xl font-bold dark:text-green-400">
                 Tech Jam
               </h1>
         </div>
@@ -127,6 +131,7 @@ const MenuDropdown = () => {
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
+                        <AiOutlineOrderedList size={17} />
                         <span className="ml-2">Categories</span>
                       </button>
                     </Link>
@@ -144,6 +149,7 @@ const MenuDropdown = () => {
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
+                        <AiOutlineQuestionCircle size={17} />
                         <span className="ml-2">How To Buy</span>
                       </button>
                     </Link>
@@ -158,6 +164,7 @@ const MenuDropdown = () => {
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
+                        <RiFileHistoryLine size={17} />
                         <span className="ml-2">About</span>
                       </button>
                     </Link>
@@ -179,6 +186,7 @@ const MenuDropdown = () => {
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-72 items-center rounded-md px-2 py-1 text-sm font-Poppins`}
                       >
+                        <AiOutlineMail size={17} />
                         <span className="ml-2">Contact</span>
                       </button>
                     </Link>
@@ -193,7 +201,7 @@ const MenuDropdown = () => {
                     <button
                       className={`${
                         active ? "bg-violet-500 text-white" : "text-gray-900"
-                      } group flex w-72 items-center rounded-md px-2 py-1 text-sm font-Poppins`}
+                      } group flex w-72 items-center rounded-md  py-1 text-sm font-Poppins`}
                     >
                       {renderThemeChanger()}
                     </button>

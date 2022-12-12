@@ -78,7 +78,7 @@ const Header = () => {
                 />
               </Link>
               {/* Heading Title: Tech Jam */}
-              <h1 className="mt-1 ml-6 text-4xl font-bold text-green-400">
+              <h1 className="mt-1 ml-6 text-4xl font-bold dark:text-green-400">
                 Tech Jam
               </h1>
             </div>
