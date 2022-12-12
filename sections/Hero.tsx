@@ -11,15 +11,21 @@ const Hero = () => {
 
   return (
     <div>
-      <section>
-        <Image src={mainImage} width={400} height={200} alt="" />
-        {products.map((item, index) => (
-          <ul key={item.id}>
-            <li onClick={() => setValue(index) }>
-              <Image src={item.thumbnail} width={100} height={200} alt="" />
-            </li>
-          </ul>
-        ))}
+      <section className="mx-auto max-w-7xl">
+        <article>
+          <Image src={mainImage} width={450} height={200} alt="" />
+
+          {/* Products Map */}
+          <div>
+            <ul className="flex-wrap items-center justify-start gap-5 mt-5 md:flex">
+              {products.map((item, index) => (
+                <li key={item.id} onClick={() => setValue(index)}>
+                  <Image src={item.thumbnail} width={100} height={200} alt="" className="w-24" />
+                </li>
+              ))}
+            </ul>
+          </div>
+        </article>
       </section>
     </div>
   );

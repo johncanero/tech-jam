@@ -19,19 +19,19 @@ export const data = [
     mainImage: "/images/image-product-4.jpg",
     thumbnail: "/images/image-product-4-thumbnail.jpg",
   },
-  {
-    id: 5,
-    mainImage: "/images/image-product-5.jpg",
-    thumbnail: "/images/image-product-5-thumbnail.jpg",
-  },
-  {
-    id: 6,
-    mainImage: "/images/image-product-6.jpg",
-    thumbnail: "/images/image-product-6-thumbnail.jpg",
-  },
-  {
-    id: 7,
-    mainImage: "/images/image-product-7.jpg",
-    thumbnail: "/images/image-product-7-thumbnail.jpg",
-  },
+//   {
+//     id: 5,
+//     mainImage: "/images/image-product-5.jpg",
+//     thumbnail: "/images/image-product-5-thumbnail.jpg",
+//   },
+//   {
+//     id: 6,
+//     mainImage: "/images/image-product-6.jpg",
+//     thumbnail: "/images/image-product-6-thumbnail.jpg",
+//   },
+//   {
+//     id: 7,
+//     mainImage: "/images/image-product-7.jpg",
+//     thumbnail: "/images/image-product-7-thumbnail.jpg",
+//   },
 ];
