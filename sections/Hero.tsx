@@ -3,6 +3,8 @@ import Image from "next/image";
 import { useState } from "react";
 import { data } from "../pages/data";
 
+
+
 const Hero = () => {
   const [products] = useState(data);
   const [value, setValue] = useState(0);
