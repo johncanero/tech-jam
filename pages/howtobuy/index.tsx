@@ -1,12 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import { AiOutlineQuestionCircle } from "@react-icons/all-files/ai/AiOutlineQuestionCircle";
 
 const index = () => {
   return (
     <div>
       <div className="ml-6">
-        <h1 className="mt-6 text-2xl font-bold text-center md:text-left md:text-3xl font-ShareTechMono dark:text-green-400">
-          How To Buy
+        <h1 className="flex gap-3 mt-6 text-2xl font-bold text-center md:text-left md:text-3xl font-ShareTechMono dark:text-green-400">
+          How To Buy <AiOutlineQuestionCircle size={26} className="mt-1" />
         </h1>
         <div className="max-w-4xl mt-2 mb-12">
           <p className="text-lg text-justify font-Roboto">
