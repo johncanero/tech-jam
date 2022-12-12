@@ -3,11 +3,14 @@ import Image from "next/image";
 import { useState } from "react";
 import { data } from "../pages/data";
 
+
+
 const Hero = () => {
   const [products] = useState(data);
   const [value, setValue] = useState(0);
 
   const { mainImage } = products[value];
+
 
   return (
     <div>
@@ -20,26 +23,16 @@ const Hero = () => {
             <ul className="flex-wrap items-center justify-start gap-5 mt-5 md:flex">
               {products.map((item, index) => (
                 <li key={item.id} onClick={() => setValue(index)}>
-                  <Image
-                    src={item.thumbnail}
-                    width={100}
-                    height={200}
-                    alt=""
-                    className="w-28"
-                  />
+                  <Image src={item.thumbnail} width={100} height={200} alt="" className="w-28" />
                 </li>
               ))}
             </ul>
           </div>
         </article>
 
+
         <article>
-          <h1>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
-            blanditiis quas excepturi animi laudantium! Aspernatur, iure velit
-            praesentium cupiditate ducimus officia doloribus eveniet aut saepe,
-            corrupti, fugiat tempora sunt. Qui.
-          </h1>
+            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed blanditiis quas excepturi animi laudantium! Aspernatur, iure velit praesentium cupiditate ducimus officia doloribus eveniet aut saepe, corrupti, fugiat tempora sunt. Qui.</h1>
         </article>
       </section>
     </div>
