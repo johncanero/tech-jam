@@ -4,6 +4,9 @@ import Image from "next/image";
 import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
 import Button from "../components/Button";
+// Icons
+import { AiOutlineShoppingCart } from "@react-icons/all-files/ai/AiOutlineShoppingCart";
+import { CgProfile } from "@react-icons/all-files/cg/CgProfile";
 
 const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -110,7 +113,8 @@ const Header = () => {
                 rel="noopener noreferrer"
                 href="/about"
                 className="mt-1 font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
-              >About
+              >
+                About
               </Link>
 
               <Link
@@ -131,7 +135,16 @@ const Header = () => {
             </ul>
           </div>
 
-          <div className="">{renderThemeChanger()}</div>
+          <div className="flex">
+            <button>
+              <AiOutlineShoppingCart size={34} className="mr-6" />
+            </button>
+
+            <button>
+              <CgProfile size={34} className="mr-6" />
+            </button>
+            {renderThemeChanger()}
+          </div>
         </header>
         <hr className="h-px my-8 border-0 bg-neutral-200 dark:bg-neutral-700"></hr>
       </div>
