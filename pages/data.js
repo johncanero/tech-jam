@@ -1,4 +1,4 @@
-export const data = [
+const data = [
     {
       id: 1,
       mainImage: "/images/image-product-1.jpg",
@@ -35,3 +35,5 @@ export const data = [
       thumbnail: "/images/image-product-7-thumbnail.jpg",
     },
   ];
+
+  export default data;
