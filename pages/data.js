@@ -19,6 +19,8 @@ export const data = [
     mainImage: "/images/image-product-4.jpg",
     thumbnail: "/images/image-product-4-thumbnail.jpg",
   },
+];
+
 //   {
 //     id: 5,
 //     mainImage: "/images/image-product-5.jpg",
@@ -34,4 +36,3 @@ export const data = [
 //     mainImage: "/images/image-product-7.jpg",
 //     thumbnail: "/images/image-product-7-thumbnail.jpg",
 //   },
-];
