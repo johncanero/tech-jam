@@ -9,7 +9,7 @@ const index = () => {
         <h1 className="flex gap-3 mt-6 text-2xl font-bold text-center md:text-left md:text-3xl font-ShareTechMono dark:text-green-400">
           How To Buy <AiOutlineQuestionCircle size={26} className="mt-1" />
         </h1>
-        <div className="max-w-4xl mt-2 mb-12">
+        <div className="mt-2 mb-12 md:max-w-2xl lg:max-w-4xl">
           <p className="text-lg text-justify font-Roboto">
             1. First, decide on the tech products you want to buy. You can do
             this by browsing the store's website or visiting the store in person

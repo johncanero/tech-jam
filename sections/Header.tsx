@@ -63,7 +63,7 @@ const Header = () => {
   return (
     <div>
       <div className="hidden pt-3 mx-2 md:mx-4 lg:mx-5 lg:block">
-        <header className="flex items-center justify-between h-20 mt-1 md:mt-3 font-ShareTechMono">
+        <header className="flex items-center justify-between h-16 mt-1 md:mt-3 font-ShareTechMono">
           {/* Justify Between: Left */}
           <div className="flex">
             {/* Heading Title Link */}
