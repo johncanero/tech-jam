@@ -29,7 +29,7 @@ const MenuDropdown = () => {
     if (currentTheme === "dark") {
       return (
         <Button
-          className="mr-3 text-neutral-900 dark:bg-white"
+          className="flex gap-1 text-neutral-900"
           onClick={() => setTheme("light")}
         >
           <svg
@@ -44,12 +44,13 @@ const MenuDropdown = () => {
               clipRule="evenodd"
             />
           </svg>
+          <span className="">Light/Dark Mode</span>
         </Button>
       );
     } else {
       return (
         <Button
-          className="mr-3 text-white bg-neutral-800"
+          className="flex gap-1 text-neutral-900"
           onClick={() => setTheme("dark")}
         >
           <svg
@@ -60,6 +61,7 @@ const MenuDropdown = () => {
           >
             <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
           </svg>
+          <span className="">Light/Dark Mode</span>
         </Button>
       );
     }
@@ -204,6 +206,7 @@ const MenuDropdown = () => {
                       } group flex w-72 items-center rounded-md  py-1 text-sm font-Poppins`}
                     >
                       {renderThemeChanger()}
+            
                     </button>
                   )}
                 </Menu.Item>
