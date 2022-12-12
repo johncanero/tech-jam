@@ -8,10 +8,13 @@ import { useTheme } from "next-themes";
 // Icons
 import { GiHamburgerMenu } from "@react-icons/all-files/gi/GiHamburgerMenu";
 import { FaHome } from "@react-icons/all-files/fa/FaHome";
-import { AiOutlineOrderedList } from "@react-icons/all-files/ai/AiOutlineOrderedList"
-import { AiOutlineQuestionCircle } from "@react-icons/all-files/ai/AiOutlineQuestionCircle"
-import { RiFileHistoryLine } from "@react-icons/all-files/ri/RiFileHistoryLine"
+import { AiOutlineOrderedList } from "@react-icons/all-files/ai/AiOutlineOrderedList";
+import { AiOutlineQuestionCircle } from "@react-icons/all-files/ai/AiOutlineQuestionCircle";
+import { RiFileHistoryLine } from "@react-icons/all-files/ri/RiFileHistoryLine";
 import { AiOutlineMail } from "@react-icons/all-files/ai/AiOutlineMail";
+// Header Main Icons
+import { AiOutlineShoppingCart } from "@react-icons/all-files/ai/AiOutlineShoppingCart";
+import { CgProfile } from "@react-icons/all-files/cg/CgProfile";
 
 const MenuDropdown = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -69,25 +72,32 @@ const MenuDropdown = () => {
 
   return (
     // Mobile Visibility
-    <div className="flex justify-between mt-4 text-right lg:hidden top-16 w-96 md:w-full font-ShareTechMono">
-      {/* Image */}
-      <Link rel="noopener noreferrer" href="/">
-        <div className="flex">
-          <Image
-            src="/images/techStore.png"
-            width={40}
-            height={40}
-            alt="jLogo"
-            className=""
-          />
-             {/* Heading Title: Tech Jam */}
-             <h1 className="mt-1 ml-4 text-3xl font-bold dark:text-green-400">
-                Tech Jam
-              </h1>
-        </div>
-      </Link>
+    <div className="flex justify-between mt-4 text-right md:mt-6 lg:hidden top-16 w-96 md:w-full font-ShareTechMono">
+      <div>
+        {/* Image */}
+        <Link rel="noopener noreferrer" href="/">
+          <div className="flex">
+            <Image
+              src="/images/techStore.png"
+              width={40}
+              height={40}
+              alt="jLogo"
+              className=""
+            />
+            {/* Heading Title: Tech Jam */}
+            <h1 className="mt-1 ml-4 text-3xl font-bold dark:text-green-400">
+              Tech Jam
+            </h1>
+          </div>
+        </Link>
+      </div>
+
       {/* Dark Mode and Toggle */}
-      <div className="z-10">
+      <div className="z-10 flex">
+        {/* Tablet Icons */}
+        <AiOutlineShoppingCart size={28} className="mt-1 mr-3 md:mr-6" />
+        <CgProfile size={28} className="hidden mt-1 mr-6 md:block" />
+
         <Menu as="div" className="relative inline-block text-left mr-7">
           {/* Toggle Button */}
           <div>
@@ -206,7 +216,6 @@ const MenuDropdown = () => {
                       } group flex w-72 items-center rounded-md  py-1 text-sm font-Poppins`}
                     >
                       {renderThemeChanger()}
-            
                     </button>
                   )}
                 </Menu.Item>
