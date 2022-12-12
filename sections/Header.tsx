@@ -146,7 +146,7 @@ const Header = () => {
             {renderThemeChanger()}
           </div>
         </header>
-        <hr className="h-px my-8 border-0 bg-neutral-200 dark:bg-neutral-700"></hr>
+        <hr className="h-px mt-8 border-0 bg-neutral-200 dark:bg-neutral-700"></hr>
       </div>
     </div>
   );
