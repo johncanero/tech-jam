@@ -5,10 +5,10 @@ const index = () => {
   return (
     <div>
       <div className="ml-6">
-        <h1 className="mt-1 text-3xl font-bold font-ShareTechMono dark:text-green-400">
+        <h1 className="mt-6 text-2xl font-bold text-center md:text-left md:mt-1 md:text-3xl font-ShareTechMono dark:text-green-400">
           How To Buy
         </h1>
-        <div className="max-w-4xl mt-2">
+        <div className="max-w-4xl mt-2 mb-12">
           <p className="text-lg text-justify font-Roboto">
             1. First, decide on the tech products you want to buy. You can do
             this by browsing the store's website or visiting the store in person
