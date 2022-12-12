@@ -62,7 +62,7 @@ const Header = () => {
 
   return (
     <div>
-      <div className="hidden pt-3 mx-2 md:mx-4 lg:mx-5 md:block">
+      <div className="hidden pt-3 mx-2 md:mx-4 lg:mx-5 lg:block">
         <header className="flex items-center justify-between h-20 mt-1 md:mt-3 font-ShareTechMono">
           {/* Justify Between: Left */}
           <div className="flex">
@@ -83,7 +83,7 @@ const Header = () => {
               </h1>
             </div>
 
-            <ul className="flex gap-12 mt-2 ml-16 text-lg">
+            <ul className="flex gap-12 mt-2 ml-16 text-sm lg:text-lg">
               {/* Header Links */}
               <Link
                 rel="noopener noreferrer"
