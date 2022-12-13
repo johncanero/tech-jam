@@ -41,6 +41,7 @@ const data = [
 ];
 
 const DataComponent = () => {
+  // useState
   const [products] = useState(data);
   const [value, setValue] = useState(0);
 
@@ -48,7 +49,13 @@ const DataComponent = () => {
   return (
     <React.Fragment>
       <article>
-        <Image src={mainImage} width={500} height={200} alt="" className="w-9/12 " />
+        <Image
+          src={mainImage}
+          width={500}
+          height={200}
+          alt=""
+          className="w-9/12 rounded-2xl "
+        />
 
         {/* Products Map */}
         <div>
@@ -60,7 +67,7 @@ const DataComponent = () => {
                   width={77}
                   height={200}
                   alt=""
-                  className=""
+                  className=" rounded-xl"
                 />
               </li>
             ))}
