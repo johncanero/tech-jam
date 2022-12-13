@@ -23,7 +23,7 @@ const Hero = () => {
     <div>
       <section className="justify-center py-6 mx-auto lg:py-12 lg:flex">
         {/* Hide in Desktop */}
-        <h2 className="block px-4 mb-3 text-lg font-bold text-green-400 md:ml-16 md:mb-4 lg:hidden lg:mt-0 font-ShareTechMono">
+        <h2 className="block px-4 mb-3 text-lg font-bold text-green-500 md:ml-16 md:mb-4 lg:hidden lg:mt-0 font-ShareTechMono">
           Technology Marketplace
         </h2>
         <DataComponent />
