@@ -30,7 +30,7 @@ const Hero = () => {
             Technology Marketplace
           </h2>
           {/* Heading Product */}
-          <h1 className="mt-6 text-2xl font-bold md:mt-10 md:text-3xl lg:text-5xl font-Roboto">
+          <h1 className="mt-6 text-2xl font-bold md:mt-8 md:text-3xl lg:text-5xl font-Roboto">
             Logitech MX Keys Wireless Keyboard with Backlit Keys
           </h1>
 
