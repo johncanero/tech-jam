@@ -5,10 +5,13 @@ import { useState } from "react";
 import DataComponent from "../pages/DataComponent";
 import data from "../pages/DataComponent";
 // Icons
+import { AiOutlineShoppingCart } from "@react-icons/all-files/ai/AiOutlineShoppingCart";
+import { BiMinus } from "@react-icons/all-files/bi/BiMinus";
+import { BiPlus } from "@react-icons/all-files/bi/BiPlus";
 
 const Hero = () => {
-const [products] = useState(data);
-  const [value, setValue] = useState(0);
+  // const [products] = useState(data);
+  // const [value, setValue] = useState(0);
   const [amount, setAmount] = useState(0);
 
   const handleMinus = () => {
@@ -45,7 +48,7 @@ const [products] = useState(data);
 
           {/* Pricing */}
           <div>
-            <h3 className="mt-8 text-3xl font-bold font-roboto">
+            <h3 className="mt-6 text-3xl font-bold lg:mt-8 font-roboto">
               $119.99{" "}
               <span className="px-2 text-lg text-green-500 align-middle bg-green-200 rounded-md dark:text-green-400 dark:bg-neutral-800">
                 50%
@@ -58,14 +61,26 @@ const [products] = useState(data);
           </div>
 
           {/* Add to Cart */}
-          <div>
-            <ul>
-              <li>
-                -
+          <div className="items-center justify-between gap-2 mt-8 lg:flex">
+            <ul className="flex items-center justify-between px-4 py-2 rounded shadow bg-slate-100 dark:bg-neutral-700 lg:flex-1">
+              <li onClick={handleMinus} className="cursor-pointer">
+                <BiMinus size={27} />
               </li>
               <li>{amount}</li>
-              <li>+</li>
+              <li
+                onClick={() => setAmount(amount + 1)}
+                className="cursor-pointer"
+              >
+                <BiPlus size={27} />
+              </li>
             </ul>
+
+            {/* Shopping Cart */}
+            <div className="lg:flex-1">
+              <button className="flex items-center justify-center w-full gap-4 px-4 py-2 mt-5 font-bold text-white transition-all duration-200 bg-green-500 rounded-lg shadow lg:mt-3 hover:bg-green-600">
+                <AiOutlineShoppingCart /> Add to cart
+              </button>
+            </div>
           </div>
         </article>
       </section>
