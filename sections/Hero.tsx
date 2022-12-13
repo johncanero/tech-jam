@@ -11,9 +11,6 @@ const [products] = useState(data);
   const [value, setValue] = useState(0);
   const [amount, setAmount] = useState(0);
 
-
-
-
   const handleMinus = () => {
     setAmount(amount - 1);
     if (amount <= 0) setAmount(0);
@@ -37,7 +34,7 @@ const [products] = useState(data);
           </h1>
 
           {/* Features */}
-          <h1 className="mt-6 lg:mt-12 font-Roboto">
+          <h1 className="mt-6 lg:mt-10 font-Roboto">
             • Perfect stroke keys: Spherically dished keys match the shape of
             your fingertips, offering satisfying feedback with every tap.
             <br></br>• Comfort and stability: Type with confidence on a keyboard
