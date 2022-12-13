@@ -96,8 +96,8 @@ const MenuDropdown = () => {
         {/* Dark Mode and Toggle */}
         <div className="z-10 flex">
           {/* Tablet Icons */}
-          <AiOutlineShoppingCart size={28} className="mt-1 mr-3 md:mr-6" />
-          <CgProfile size={28} className="hidden mt-1 mr-6 md:block" />
+          <AiOutlineShoppingCart size={28} className="mt-1 mr-2 md:mr-6" />
+          <CgProfile size={28} className="hidden mt-1 mr-4 md:block" />
 
           <Menu as="div" className="relative inline-block text-left mr-7">
             {/* Toggle Button */}

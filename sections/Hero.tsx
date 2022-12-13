@@ -14,7 +14,7 @@ const Hero = () => {
     // const [value, setValue] = useState(0);
   const [amount, setAmount] = useState(0);
 
-  // Subtract Funcion
+  // Subtract Function
   const handleMinus = () => {
     setAmount(amount - 1);
     if (amount <= 0) setAmount(0);
