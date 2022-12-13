@@ -48,7 +48,7 @@ const DataComponent = () => {
   return (
     <React.Fragment>
       <article>
-        <Image src={mainImage} width={500} height={200} alt="" />
+        <Image src={mainImage} width={500} height={200} alt="" className="w-9/12 " />
 
         {/* Products Map */}
         <div>
@@ -57,7 +57,7 @@ const DataComponent = () => {
               <li key={item.id} onClick={() => setValue(index)}>
                 <Image
                   src={item.thumbnail}
-                  width={84}
+                  width={77}
                   height={200}
                   alt=""
                   className=""
