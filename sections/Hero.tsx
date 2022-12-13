@@ -25,6 +25,8 @@ const Hero = () => {
             praesentium cupiditate ducimus officia doloribus eveniet aut saepe,
             corrupti, fugiat tempora sunt. Qui.
           </h1>
+
+          <h3 className="mt-8 text-3xl font-bold font-roboto">$119.99 <span className="px-2 text-lg text-green-500 align-middle bg-green-200 rounded-md">50%</span></h3>
         </article>
       </section>
     </div>
