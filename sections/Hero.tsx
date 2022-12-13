@@ -19,14 +19,25 @@ const Hero = () => {
           <h1 className="mt-6 text-3xl font-bold lg:text-5xl font-Roboto">
             Logitech MX Keys Wireless Keyboard with Backlit Keys
           </h1>
+
+          {/* Features */}
           <h1 className="mt-6 lg:mt-12 font-Roboto">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
-            blanditiis quas excepturi animi laudantium! Aspernatur, iure velit
-            praesentium cupiditate ducimus officia doloribus eveniet aut saepe,
-            corrupti, fugiat tempora sunt. Qui.
+            • Perfect stroke keys: Spherically dished keys match the shape of your
+            fingertips, offering satisfying feedback with every tap. 
+            <br></br>
+            • Comfort and stability: Type with confidence on a keyboard crafted for comfort,
+            stability, and precision. 
+            <br></br>
+            • Smart illumination hand proximity detection and automatic backlighting
           </h1>
 
-          <h3 className="mt-8 text-3xl font-bold font-roboto">$119.99 <span className="px-2 text-lg text-green-500 align-middle bg-green-200 rounded-md">50%</span></h3>
+          {/* Pricing */}
+          <h3 className="mt-8 text-3xl font-bold font-roboto">
+            $119.99{" "}
+            <span className="px-2 text-lg text-green-500 align-middle bg-green-200 rounded-md">
+              50%
+            </span>
+          </h3>
         </article>
       </section>
     </div>
