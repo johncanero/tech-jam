@@ -10,10 +10,11 @@ import { BiMinus } from "@react-icons/all-files/bi/BiMinus";
 import { BiPlus } from "@react-icons/all-files/bi/BiPlus";
 
 const Hero = () => {
-  // const [products] = useState(data);
-  // const [value, setValue] = useState(0);
+    // const [products] = useState(data);
+    // const [value, setValue] = useState(0);
   const [amount, setAmount] = useState(0);
 
+  // Subtract Funcion
   const handleMinus = () => {
     setAmount(amount - 1);
     if (amount <= 0) setAmount(0);
@@ -77,7 +78,7 @@ const Hero = () => {
 
             {/* Shopping Cart */}
             <div className="lg:flex-1">
-              <button className="flex items-center justify-center w-full gap-4 px-4 py-2 mt-5 font-bold text-white transition-all duration-200 bg-green-500 rounded-lg shadow lg:mt-3 hover:bg-green-600">
+              <button className="flex items-center justify-center w-full gap-4 px-4 py-2 mt-3 font-bold text-white transition-all duration-200 bg-green-500 rounded-lg shadow lg:mt-0 hover:bg-green-600">
                 <AiOutlineShoppingCart /> Add to cart
               </button>
             </div>
