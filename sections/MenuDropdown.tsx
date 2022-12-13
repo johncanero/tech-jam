@@ -72,7 +72,7 @@ const MenuDropdown = () => {
 
   return (
     // Mobile Visibility
-    <div>
+    <div className="px-4">
       <div className="flex justify-between mt-4 text-right md:mt-6 lg:hidden top-16 w-96 md:w-full font-ShareTechMono">
         <div>
           {/* Image */}
