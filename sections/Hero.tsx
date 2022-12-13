@@ -1,17 +1,13 @@
 import React from "react";
-import Image from "next/image";
 import { useState } from "react";
 // Data
 import DataComponent from "../pages/DataComponent";
-import data from "../pages/DataComponent";
 // Icons
 import { AiOutlineShoppingCart } from "@react-icons/all-files/ai/AiOutlineShoppingCart";
 import { BiMinus } from "@react-icons/all-files/bi/BiMinus";
 import { BiPlus } from "@react-icons/all-files/bi/BiPlus";
 
 const Hero = () => {
-    // const [products] = useState(data);
-    // const [value, setValue] = useState(0);
   const [amount, setAmount] = useState(0);
 
   // Subtract Function

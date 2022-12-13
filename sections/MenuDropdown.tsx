@@ -80,13 +80,13 @@ const MenuDropdown = () => {
             <div className="flex">
               <Image
                 src="/images/techStore.png"
-                width={40}
+                width={35}
                 height={40}
                 alt="jLogo"
                 className=""
               />
               {/* Heading Title: Tech Jam */}
-              <h1 className="mt-1 ml-4 text-3xl font-bold dark:text-green-400">
+              <h1 className="ml-4 text-3xl font-bold dark:text-green-400">
                 Tech Jam
               </h1>
             </div>
@@ -96,8 +96,8 @@ const MenuDropdown = () => {
         {/* Dark Mode and Toggle */}
         <div className="z-10 flex">
           {/* Tablet Icons */}
-          <AiOutlineShoppingCart size={28} className="mt-1 mr-3 md:mr-6" />
-          <CgProfile size={28} className="hidden mt-1 mr-4 md:block" />
+          <AiOutlineShoppingCart size={28} className="mt-1 mr-4 md:mr-6" />
+          <CgProfile size={28} className="mt-1 mr-4 md:block" />
 
           <Menu as="div" className="relative inline-block mr-5 text-left">
             {/* Toggle Button */}
