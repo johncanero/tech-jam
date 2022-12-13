@@ -72,7 +72,7 @@ const MenuDropdown = () => {
 
   return (
     // Mobile Visibility
-    <div className="px-4">
+    <div className="px-2">
       <div className="flex justify-between mt-4 text-right md:mt-6 lg:hidden top-16 w-96 md:w-full font-ShareTechMono">
         <div>
           {/* Image */}
@@ -96,13 +96,13 @@ const MenuDropdown = () => {
         {/* Dark Mode and Toggle */}
         <div className="z-10 flex">
           {/* Tablet Icons */}
-          <AiOutlineShoppingCart size={28} className="mt-1 mr-2 md:mr-6" />
+          <AiOutlineShoppingCart size={28} className="mt-1 mr-3 md:mr-6" />
           <CgProfile size={28} className="hidden mt-1 mr-4 md:block" />
 
-          <Menu as="div" className="relative inline-block text-left mr-7">
+          <Menu as="div" className="relative inline-block mr-5 text-left">
             {/* Toggle Button */}
             <div>
-              <Menu.Button className="inline-flex justify-center w-full px-2 py-2 text-sm font-medium rounded-md text-neutral-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
+              <Menu.Button className="inline-flex justify-center w-full py-2 text-sm font-medium rounded-md text-neutral-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
                 <GiHamburgerMenu
                   className="w-6 h-6 dark:text-white"
                   aria-hidden="true"
