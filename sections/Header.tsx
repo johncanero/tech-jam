@@ -83,7 +83,7 @@ const Header = () => {
               </h1>
             </div>
 
-            <ul className="flex gap-12 mt-2 ml-16 text-sm lg:text-lg">
+            <ul className="flex gap-12 mt-2 text-sm ml-14 lg:text-lg">
               {/* Header Links */}
               <Link
                 rel="noopener noreferrer"
