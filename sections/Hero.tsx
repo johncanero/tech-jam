@@ -12,7 +12,7 @@ const Hero = () => {
         <DataComponent />
         <article className="flex-col w-full lg:w-5/12 lg:ml-20 ">
           {/* Hide in Tablet and Mobile */}
-          <h2 className="hidden mt-10 text-xl font-bold text-green-400 lg:mt-0 font-ShareTechMono lg:block">
+          <h2 className="hidden mt-10 text-xl font-bold text-green-400 drop-shadow lg:mt-0 font-ShareTechMono lg:block">
             Technology Marketplace
           </h2>
           {/* Heading Product */}
