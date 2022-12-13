@@ -5,7 +5,7 @@ import { AiOutlineQuestionCircle } from "@react-icons/all-files/ai/AiOutlineQues
 const index = () => {
   return (
     <div>
-      <div className="px-4 md:ml-6">
+      <div className="px-4">
         <h1 className="flex gap-3 mt-6 text-2xl font-bold text-center md:text-left md:text-3xl font-ShareTechMono dark:text-green-400">
           How To Buy <AiOutlineQuestionCircle size={26} className="mt-1 text-green-400" />
         </h1>
