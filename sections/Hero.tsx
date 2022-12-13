@@ -29,7 +29,7 @@ const Hero = () => {
         <DataComponent />
         <article className="flex-col w-full px-4 md:ml-16 md:w-10/12 lg:w-5/12 lg:ml-20 ">
           {/* Hide in Tablet and Mobile */}
-          <h2 className="hidden mt-10 text-xl font-bold text-green-400 lg:mt-0 font-ShareTechMono lg:block">
+          <h2 className="hidden mt-10 text-xl font-bold text-green-500 lg:mt-0 font-ShareTechMono lg:block">
             Technology Marketplace
           </h2>
           {/* Heading Product */}
@@ -51,7 +51,7 @@ const Hero = () => {
           <div>
             <h3 className="mt-6 text-3xl font-bold lg:mt-8 font-roboto">
               $119.99{" "}
-              <span className="px-2 text-lg text-green-500 align-middle bg-green-200 rounded-md dark:text-green-400 dark:bg-neutral-800">
+              <span className="px-1 py-1 text-lg text-green-500 align-middle bg-green-200 rounded-md dark:text-green-400 dark:bg-neutral-700">
                 50%
               </span>
             </h3>
