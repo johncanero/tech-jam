@@ -10,34 +10,34 @@ const data = [
   },
   {
     id: 2,
-    mainImage: "/images/image-product-2.jpg",
-    thumbnail: "/images/image-product-2-thumbnail.jpg",
-  },
-  {
-    id: 3,
-    mainImage: "/images/image-product-3.jpg",
-    thumbnail: "/images/image-product-3-thumbnail.jpg",
-  },
-  {
-    id: 4,
     mainImage: "/images/image-product-4.jpg",
     thumbnail: "/images/image-product-4-thumbnail.jpg",
   },
   {
+    id: 3,
+    mainImage: "/images/image-product-2.jpg",
+    thumbnail: "/images/image-product-2-thumbnail.jpg",
+  },
+  {
+    id: 4,
+    mainImage: "/images/image-product-3.jpg",
+    thumbnail: "/images/image-product-3-thumbnail.jpg",
+  },
+  {
     id: 5,
-    mainImage: "/images/image-product-5.jpg",
-    thumbnail: "/images/image-product-5-thumbnail.jpg",
-  },
-  {
-    id: 6,
-    mainImage: "/images/image-product-6.jpg",
-    thumbnail: "/images/image-product-6-thumbnail.jpg",
-  },
-  {
-    id: 7,
     mainImage: "/images/image-product-7.jpg",
     thumbnail: "/images/image-product-7-thumbnail.jpg",
   },
+  // {
+  //   id: 6,
+  //   mainImage: "/images/image-product-6.jpg",
+  //   thumbnail: "/images/image-product-6-thumbnail.jpg",
+  // },
+  // {
+  //   id: 7,
+  //   mainImage: "/images/image-product-5.jpg",
+  //   thumbnail: "/images/image-product-5-thumbnail.jpg",
+  // },
 ];
 
 const DataComponent = () => {
@@ -48,7 +48,7 @@ const DataComponent = () => {
   return (
     <React.Fragment>
       <article>
-        <Image src={mainImage} width={550} height={200} alt="" />
+        <Image src={mainImage} width={500} height={200} alt="" />
 
         {/* Products Map */}
         <div>
@@ -57,10 +57,10 @@ const DataComponent = () => {
               <li key={item.id} onClick={() => setValue(index)}>
                 <Image
                   src={item.thumbnail}
-                  width={100}
+                  width={84}
                   height={200}
                   alt=""
-                  className="w-28"
+                  className=""
                 />
               </li>
             ))}
