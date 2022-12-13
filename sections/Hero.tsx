@@ -6,17 +6,17 @@ const Hero = () => {
     <div>
       <section className="justify-center py-6 mx-auto lg:py-12 lg:flex">
         {/* Hide in Desktop */}
-        <h2 className="block mb-3 text-lg font-bold text-green-400 md:mb-4 lg:hidden lg:mt-0 font-ShareTechMono">
+        <h2 className="block mb-3 text-lg font-bold text-green-400 md:ml-16 md:mb-4 lg:hidden lg:mt-0 font-ShareTechMono">
           Technology Marketplace
         </h2>
         <DataComponent />
-        <article className="flex-col w-full lg:w-5/12 lg:ml-20 ">
+        <article className="flex-col w-full md:ml-16 md:w-10/12 lg:w-5/12 lg:ml-20 ">
           {/* Hide in Tablet and Mobile */}
           <h2 className="hidden mt-10 text-xl font-bold text-green-400 lg:mt-0 font-ShareTechMono lg:block">
             Technology Marketplace
           </h2>
           {/* Heading Product */}
-          <h1 className="mt-6 text-3xl font-bold lg:text-5xl font-Roboto">
+          <h1 className="mt-6 text-2xl font-bold md:mt-10 md:text-3xl lg:text-5xl font-Roboto">
             Logitech MX Keys Wireless Keyboard with Backlit Keys
           </h1>
 

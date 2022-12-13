@@ -54,12 +54,12 @@ const DataComponent = () => {
           width={500}
           height={200}
           alt=""
-          className="md:mx-auto lg:mx-0 rounded-2xl md:w-7/12 lg:w-11/12"
+          className="mx-auto md:ml-16 lg:mx-0 rounded-2xl md:w-7/12 lg:w-11/12"
         />
 
         {/* Products Map */}
         <div>
-          <ul className="flex flex-wrap items-center justify-center gap-3 mt-5 md:gap-5 lg:justify-start md:flex">
+          <ul className="flex flex-wrap items-center justify-center gap-3 mt-5 md:justify-start md:ml-16 lg:ml-0 md:gap-5 lg:justify-start md:flex">
             {products.map((item, index) => (
               <li
                 key={item.id}
