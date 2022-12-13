@@ -48,18 +48,18 @@ const DataComponent = () => {
   const { mainImage } = products[value];
   return (
     <React.Fragment>
-      <article>
+      <article className="">
         <Image
           src={mainImage}
           width={500}
           height={200}
           alt=""
-          className="w-9/12 rounded-2xl "
+          className="md:mx-auto lg:mx-0 rounded-2xl md:w-7/12 lg:w-11/12"
         />
 
         {/* Products Map */}
         <div>
-          <ul className="flex-wrap items-center justify-start gap-5 mt-5 md:flex">
+          <ul className="flex flex-wrap items-center justify-center gap-3 mt-5 md:gap-5 lg:justify-start md:flex">
             {products.map((item, index) => (
               <li
                 key={item.id}
@@ -74,7 +74,7 @@ const DataComponent = () => {
                   width={72}
                   height={200}
                   alt=""
-                  className=" rounded-xl"
+                  className="w-14 md:w-16 lg:w-20 rounded-xl"
                 />
               </li>
             ))}
