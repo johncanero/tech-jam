@@ -4,9 +4,9 @@ import DataComponent from "../pages/DataComponent";
 const Hero = () => {
   return (
     <div>
-      <section className="justify-center py-12 lg:flex">
+      <section className="justify-center py-12 mx-auto lg:flex">
         <DataComponent />
-        <article className="flex-col w-9/12 mx-auto lg:w-5/12 lg:ml-28 ">
+        <article className="flex-col w-9/12 mx-auto lg:w-5/12 lg:ml-20 ">
           <h2 className="mt-10 text-lg font-bold text-green-400 lg:mt-0 font-ShareTechMono">
             Technology Marketplace
           </h2>

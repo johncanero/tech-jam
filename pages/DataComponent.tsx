@@ -48,7 +48,7 @@ const DataComponent = () => {
   const { mainImage } = products[value];
   return (
     <React.Fragment>
-      <article className="">
+      <article className="lg:ml-12">
         <Image
           src={mainImage}
           width={500}
