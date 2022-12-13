@@ -1,7 +1,16 @@
 import React from "react";
+import Image from "next/image";
+import { useState } from "react";
+// Data
 import DataComponent from "../pages/DataComponent";
+import data from "../pages/DataComponent";
+// Icons
 
 const Hero = () => {
+  const [products] = useState(data);
+  const [value, setValue] = useState(0);
+  const [amount, setAmount] = useState(0);
+
   return (
     <div>
       <section className="justify-center py-6 mx-auto lg:py-12 lg:flex">
@@ -46,7 +55,13 @@ const Hero = () => {
 
           {/* Add to Cart */}
           <div>
-            
+            <ul>
+              <li>
+
+              </li>
+              <li>{amount}</li>
+              <li></li>
+            </ul>
           </div>
         </article>
       </section>
