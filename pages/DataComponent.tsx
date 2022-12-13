@@ -61,7 +61,7 @@ const DataComponent = () => {
 
         {/* Products Map */}
         <div>
-          <ul className="flex flex-wrap items-center justify-center gap-4 mt-5 lg:ml-0 md:gap-6 lg:justify-start md:flex">
+          <ul className="flex flex-wrap items-center justify-center gap-4 mt-5 lg:ml-0 md:gap-6 lg:gap-5 lg:justify-start md:flex">
             {products.map((item, index) => (
               <li
                 key={item.id}
