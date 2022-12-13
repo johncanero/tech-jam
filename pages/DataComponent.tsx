@@ -61,10 +61,17 @@ const DataComponent = () => {
         <div>
           <ul className="flex-wrap items-center justify-start gap-5 mt-5 md:flex">
             {products.map((item, index) => (
-              <li key={item.id} onClick={() => setValue(index)}>
+              <li
+                key={item.id}
+                onClick={() => setValue(index)}
+                className={`${
+                  index === value &&
+                  "border-2 border-green-400  opacity-80"
+                } border-2 rounded-2xl overflow-hidden cursor-pointer`}
+              >
                 <Image
                   src={item.thumbnail}
-                  width={77}
+                  width={72}
                   height={200}
                   alt=""
                   className=" rounded-xl"
