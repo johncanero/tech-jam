@@ -45,7 +45,7 @@ const Hero = () => {
 
           {/* Pricing */}
           <div>
-            <h3 className="mt-6 text-3xl font-bold lg:mt-8 font-roboto">
+            <h3 className="text-3xl font-bold mt-7 lg:mt-8 font-roboto">
               $119.99{" "}
               <span className="px-1 py-1 text-lg text-green-500 align-middle bg-green-200 rounded-md dark:text-green-400 dark:bg-neutral-700">
                 50%
@@ -58,7 +58,7 @@ const Hero = () => {
           </div>
 
           {/* Add to Cart */}
-          <div className="items-center justify-between gap-2 mt-8 lg:flex">
+          <div className="items-center justify-between gap-2 mt-10 mb-6 lg:flex">
             <ul className="flex items-center justify-between px-4 py-2 rounded shadow bg-slate-100 dark:bg-neutral-700 lg:flex-1">
               <li onClick={handleMinus} className="cursor-pointer">
                 <BiMinus size={27} />
