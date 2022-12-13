@@ -46,6 +46,8 @@ const DataComponent = () => {
   const [value, setValue] = useState(0);
 
   const { mainImage } = products[value];
+
+  
   return (
     <React.Fragment>
       <article className="lg:ml-12">
