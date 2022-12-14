@@ -30,12 +30,12 @@ const Hero = () => {
             Technology Marketplace
           </h2>
           {/* Heading Product */}
-          <h1 className="mt-6 text-2xl font-bold md:mt-8 md:text-3xl lg:text-5xl font-Roboto">
+          <h1 className="mt-6 text-2xl font-bold md:text-3xl lg:text-5xl font-Roboto">
             Logitech MX Keys Wireless Keyboard with Backlit Keys
           </h1>
 
           {/* Features */}
-          <h1 className="mt-6 lg:mt-10 font-Roboto">
+          <h1 className="mt-6 lg:mt-9 font-Roboto">
             • Perfect stroke keys: Spherically dished keys match the shape of
             your fingertips, offering satisfying feedback with every tap.
             <br></br>• Comfort and stability: Type with confidence on a keyboard
@@ -46,7 +46,7 @@ const Hero = () => {
 
           {/* Pricing */}
           <div>
-            <h3 className="text-3xl font-bold mt-7 lg:mt-8 font-roboto">
+            <h3 className="text-3xl font-bold mt-7 lg:mt-10 font-roboto">
               $119.99{" "}
               <span className="px-1 py-1 text-lg text-green-500 align-middle bg-green-200 rounded-md dark:text-green-400 dark:bg-neutral-700">
                 50%
@@ -59,7 +59,7 @@ const Hero = () => {
           </div>
 
           {/* Add to Cart */}
-          <div className="items-center justify-between gap-2 mt-10 mb-6 lg:flex">
+          <div className="items-center justify-between gap-2 mt-6 mb-6 md:mt-7 lg:flex">
             <ul className="flex items-center justify-between px-4 py-2 rounded shadow bg-slate-100 dark:bg-neutral-700 lg:flex-1">
               <li onClick={handleMinus} className="cursor-pointer">
                 <BiMinus size={27} />
@@ -85,7 +85,12 @@ const Hero = () => {
                 </button>
               </Link>
             </div>
+
+            {/* Source Images */}
           </div>
+      <p className="mt-4 text-xs text-end font-ShareTechMono dark:text-green-400">
+        Images from RTINGS & PC MAG: Logitech MX Keys Keyboard Review 
+      </p>
         </article>
       </section>
     </div>
