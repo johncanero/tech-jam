@@ -88,9 +88,22 @@ const Hero = () => {
 
             {/* Source Images */}
           </div>
-      <p className="mt-4 text-xs text-end font-ShareTechMono dark:text-green-400">
-        Images from RTINGS & PC MAG: Logitech MX Keys Keyboard Review 
-      </p>
+          <p className="mt-4 text-sm text-end font-ShareTechMono dark:text-green-400">
+            Images from{" "}
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.rtings.com/keyboard/reviews/logitech/mx-keys"
+            >
+              RTINGS{" "}
+            </Link>{" "}
+            &{" "}
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.pcmag.com/reviews/logitech-mx-keys"
+            >PC MAG</Link>: Logitech MX Keys Keyboard Review
+          </p>
         </article>
       </section>
     </div>
