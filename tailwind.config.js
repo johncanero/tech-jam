@@ -21,6 +21,7 @@ module.exports = {
     },
     fontFamily: {
       Roboto: ['Roboto', 'sans-serif'],
+      ShareTech: ['ShareTech', 'sans-serif'],
       ShareTechMono: ['ShareTechMono', 'monospace'],
     },
  

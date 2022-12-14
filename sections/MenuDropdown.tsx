@@ -86,7 +86,7 @@ const MenuDropdown = () => {
                 className=""
               />
               {/* Heading Title: Tech Jam */}
-              <h1 className="ml-4 text-3xl font-bold dark:text-green-400">
+              <h1 className="ml-4 text-3xl font-bold dark:text-green-400 font-Roboto">
                 Tech Jam
               </h1>
             </div>
