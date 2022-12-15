@@ -23,10 +23,7 @@ const Header = () => {
 
     if (currentTheme === "light") {
       return (
-        <Button
-          className=" text-neutral-900"
-          onClick={() => setTheme("dark")}
-        >
+        <Button className=" text-neutral-900" onClick={() => setTheme("dark")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-5 h-5"
@@ -39,10 +36,7 @@ const Header = () => {
       );
     } else {
       return (
-        <Button
-          className="text-green-400"
-          onClick={() => setTheme("light")}
-        >
+        <Button className="text-green-400" onClick={() => setTheme("light")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-5 h-5"
@@ -77,10 +71,12 @@ const Header = () => {
                   className=""
                 />
               </Link>
-              {/* Heading Title: Tech Jam */}
-              <h1 className="mt-1 ml-6 text-4xl font-black dark:text-green-400 font-Roboto">
-                Tech Jam
-              </h1>
+              <Link rel="noopener noreferrer" href="/">
+                {/* Heading Title: Tech Jam */}
+                <h1 className="mt-1 ml-6 text-4xl font-black dark:text-green-400 font-Roboto">
+                  Tech Jam
+                </h1>
+              </Link>
             </div>
 
             <ul className="flex gap-12 mt-2 text-sm ml-14 lg:text-lg">
