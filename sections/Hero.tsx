@@ -88,7 +88,7 @@ const Hero = () => {
 
             {/* Source Images */}
           </div>
-          <p className="mt-4 text-sm text-end font-ShareTechMono dark:text-green-400">
+          <p className="mt-4 text-xs md:text-sm text-end font-ShareTechMono dark:text-green-400">
             Images from{" "}
             <Link
               target="_blank"
