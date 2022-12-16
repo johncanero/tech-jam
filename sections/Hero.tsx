@@ -18,7 +18,7 @@ const Hero = () => {
   };
   return (
     <div>
-      <section className="justify-center py-6 mx-auto lg:py-12 lg:flex">
+      <section className="justify-center py-6 mx-auto mb-12 lg:py-12 lg:flex">
         {/* Hide in Desktop */}
         <h2 className="block px-2 mb-3 text-lg font-bold text-green-500 md:text-left dark:text-green-400 md:ml-12 md:mb-4 lg:hidden lg:mt-0 font-ShareTechMono">
           Technology Marketplace

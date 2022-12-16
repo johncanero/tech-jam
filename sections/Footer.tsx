@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     // Hide in Mobile
-    <footer className="px-4 text-center text-gray-500 md:block md:py-6 font-ShareTechMono">
+    <footer className="px-4 py-4 text-center text-gray-500 md:block md:py-6 font-ShareTechMono">
       <Link
         target="_blank"
         rel="noopener noreferrer"
