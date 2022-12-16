@@ -18,7 +18,7 @@
   and (-webkit-min-device-pixel-ratio: 2) {
 
  body {
-        @apply sm:w-96;
+        @apply flex justify-center mx-2 sm:w-96;
 
     }
 }
