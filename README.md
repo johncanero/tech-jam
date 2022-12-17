@@ -17,9 +17,9 @@
 
 # Tech Jam
 
-This is the "Tech Jam" Store: a product page featuring the latest and quality 
+This is the "Tech Jam" Store: a product page featuring the latest and quality
 tech finds in the market. Today's feature is Logitech MX Keys Wireless Keyboard
-with Backlit Keys. Come and buy now! 
+with Backlit Keys. Come and buy now!
 
 </div>
 
@@ -38,7 +38,7 @@ Desktop Responsive Light
 Desktop Responsive Dark
 ![Desktop View - Architecture News Homepage Website](./public/responsive/TechJamDesktopDark.jpg)
 Tablet Responsive | Light and Dark
-![Tablet View - Architecture News Homepage Website](./public/responsive/architectureNewsWebsiteTablet.jpg)
+![Tablet View - Architecture News Homepage Website](./public/responsive/TechJamTabletLightDark.jpg)
 Mobile Responsive | Light and Dark
-![Mobile View - Architecture News Homepage Website](./public/responsive/architectureNewsWebsiteMobilePost1.jpg)
+![Mobile View - Architecture News Homepage Website](./public/responsive/techJamMobileLightDark.jpg)
 
