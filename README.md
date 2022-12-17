@@ -35,6 +35,8 @@ with Backlit Keys. Come and buy now!
 
 Desktop Responsive Light
 ![Desktop View - Architecture News Homepage Website](./public/responsive/TechJamDesktopLight.jpg)
+Desktop Responsive Light: How To Buy
+![Desktop View - Architecture News Homepage Website](./public/responsive/TechJamDesktopLightHowToBuy.jpg)
 Desktop Responsive Dark
 ![Desktop View - Architecture News Homepage Website](./public/responsive/TechJamDesktopDark.jpg)
 Tablet Responsive | Light and Dark
