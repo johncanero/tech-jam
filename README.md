@@ -40,5 +40,4 @@ Desktop Responsive Dark
 Tablet Responsive | Light and Dark
 ![Tablet View - Architecture News Homepage Website](./public/responsive/TechJamTabletLightDark.jpg)
 Mobile Responsive | Light and Dark
-![Mobile View - Architecture News Homepage Website](./public/responsive/techJamMobileLightDark.jpg)
-
+![Mobile View - Architecture News Homepage Website](./public/responsive/TechJamMobileLightDark.jpg)
