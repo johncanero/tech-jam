@@ -2,8 +2,8 @@ import React from "react";
 
 const index = () => {
   return (
-    <div className="lg:ml-6">
-      <h1 className="mt-6 text-2xl font-bold text-center md:text-left md:text-3xl font-ShareTechMono dark:text-green-400">
+    <div>
+      <h1 className="mt-6 text-2xl font-bold text-center lg:text-left md:text-3xl font-ShareTechMono dark:text-green-400">
         About
       </h1>
     </div>
