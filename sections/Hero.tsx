@@ -60,7 +60,7 @@ const Hero = () => {
 
           {/* Add to Cart */}
           <div className="items-center justify-between gap-2 mt-6 mb-6 md:mt-7 lg:flex">
-            <ul className="flex items-center justify-between px-4 py-2 rounded shadow bg-slate-100 dark:bg-neutral-700 lg:flex-1">
+            <ul className="flex items-center justify-between px-6 py-2 rounded shadow bg-slate-100 dark:bg-neutral-700 lg:flex-1">
               <li onClick={handleMinus} className="cursor-pointer">
                 <BiMinus size={27} />
               </li>
