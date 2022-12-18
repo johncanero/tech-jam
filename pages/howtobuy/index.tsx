@@ -5,12 +5,12 @@ import { AiOutlineQuestionCircle } from "@react-icons/all-files/ai/AiOutlineQues
 const index = () => {
   return (
     <div>
-      <div className="px-4">
-        <h1 className="flex gap-3 mt-6 text-2xl font-bold text-center md:text-left md:text-3xl font-ShareTechMono dark:text-green-400">
+      <div>
+        <h1 className="flex justify-center gap-3 mt-6 text-2xl font-bold lg:justify-start md:text-3xl md:ml-6 font-ShareTechMono dark:text-green-400">
           How To Buy{" "}
           <AiOutlineQuestionCircle size={26} className="mt-1 text-green-400" />
         </h1>
-        <div className="mt-2 mb-12 md:max-w-2xl lg:max-w-4xl">
+        <div className="mx-6 mt-2 mb-12 md:max-w-2xl lg:max-w-4xl">
           <p className="text-lg text-justify font-Roboto">
             1. First, decide on the tech products you want to buy. You can do
             this by browsing the store's website or visiting the store in person
