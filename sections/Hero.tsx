@@ -24,7 +24,7 @@ const Hero = () => {
           Technology Marketplace
         </h2>
         <DataComponent />
-        <article className="flex-col w-full px-4 md:ml-16 md:w-10/12 lg:w-5/12 lg:ml-20 ">
+        <article className="flex-col w-full px-6 md:ml-16 md:w-10/12 lg:w-5/12 lg:ml-20 ">
           {/* Hide in Tablet and Mobile */}
           <h2 className="hidden mt-10 text-xl font-bold text-green-500 dark:text-green-400 lg:mt-0 font-ShareTechMono lg:block">
             Technology Marketplace
