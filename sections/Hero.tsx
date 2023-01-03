@@ -20,11 +20,11 @@ const Hero = () => {
     <div>
       <section className="justify-center py-6 mx-auto mb-12 lg:py-12 lg:flex">
         {/* Hide in Desktop */}
-        <h2 className="block px-2 mb-3 text-lg font-bold text-green-500 md:text-left dark:text-green-400 md:ml-12 md:mb-4 lg:hidden lg:mt-0 font-ShareTechMono">
+        <h2 className="block px-3 mb-3 text-lg font-bold text-green-500 md:text-left dark:text-green-400 md:ml-12 md:mb-4 lg:hidden lg:mt-0 font-ShareTechMono">
           Technology Marketplace
         </h2>
         <DataComponent />
-        <article className="flex-col w-full px-6 md:ml-16 md:w-10/12 lg:w-5/12 lg:ml-20 ">
+        <article className="flex-col w-full px-3 md:ml-16 md:w-10/12 lg:w-5/12 lg:ml-20 ">
           {/* Hide in Tablet and Mobile */}
           <h2 className="hidden mt-10 text-xl font-bold text-green-500 dark:text-green-400 lg:mt-0 font-ShareTechMono lg:block">
             Technology Marketplace

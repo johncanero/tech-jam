@@ -76,7 +76,7 @@ const DataComponent = () => {
                   width={72}
                   height={200}
                   alt=""
-                  className="w-14 md:w-16 lg:w-20 rounded-xl"
+                  className="mx-auto w-14 md:w-16 lg:w-20 rounded-xl"
                 />
               </li>
             ))}
