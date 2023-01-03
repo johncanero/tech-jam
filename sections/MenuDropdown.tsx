@@ -12,6 +12,7 @@ import { AiOutlineOrderedList } from "@react-icons/all-files/ai/AiOutlineOrdered
 import { AiOutlineQuestionCircle } from "@react-icons/all-files/ai/AiOutlineQuestionCircle";
 import { RiFileHistoryLine } from "@react-icons/all-files/ri/RiFileHistoryLine";
 import { AiOutlineMail } from "@react-icons/all-files/ai/AiOutlineMail";
+import { AiOutlineSearch } from "@react-icons/all-files/ai/AiOutlineSearch"
 // Header Main Icons
 import { AiOutlineShoppingCart } from "@react-icons/all-files/ai/AiOutlineShoppingCart";
 import { CgProfile } from "@react-icons/all-files/cg/CgProfile";
@@ -133,6 +134,22 @@ const MenuDropdown = () => {
                         >
                           <FaHome size={17} />
                           <span className="ml-2">Home</span>
+                        </button>
+                      </Link>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <Link href="/search">
+                        <button
+                          className={`${
+                            active
+                              ? "bg-violet-500 text-white"
+                              : "text-gray-900"
+                          } group flex w-full items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                        >
+                          <AiOutlineSearch size={17} />
+                          <span className="ml-2">Search</span>
                         </button>
                       </Link>
                     )}
