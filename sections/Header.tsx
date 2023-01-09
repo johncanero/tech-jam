@@ -2,11 +2,15 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useTheme } from "next-themes";
-import { useState, useEffect } from "react";
+import { Fragment, useState, useEffect } from "react";
 import Button from "../components/Button";
 // Icons
 import { AiOutlineShoppingCart } from "@react-icons/all-files/ai/AiOutlineShoppingCart";
 import { CgProfile } from "@react-icons/all-files/cg/CgProfile";
+import { AiOutlineSearch } from "@react-icons/all-files/ai/AiOutlineSearch"
+// headless UI
+import { Menu, Transition } from "@headlessui/react";
+
 
 const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -131,7 +135,43 @@ const Header = () => {
             </ul>
           </div>
 
+          {/* Icons */}
           <div className="flex">
+            <Menu as="div" className="relative inline-block mt-1 mr-4 text-left">
+              {/* Toggle Button */}
+              <div>
+                <Menu.Button className="inline-flex justify-center w-full py-2 text-sm font-medium rounded-md text-neutral-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
+                  <AiOutlineSearch
+                    className="w-9 h-9 dark:text-white"
+                    aria-hidden="true"
+                  />
+                </Menu.Button>
+              </div>
+              <Transition
+                as={Fragment}
+                enter="transition ease-out duration-100"
+                enterFrom="transform opacity-0 scale-95"
+                enterTo="transform opacity-100 scale-100"
+                leave="transition ease-in duration-75"
+                leaveFrom="transform opacity-100 scale-100"
+                leaveTo="transform opacity-0 scale-95"
+              >
+                <Menu.Items className="absolute right-0 w-56 mt-2 origin-top-right divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                  {/* Home */}
+                  <div className="px-1 py-1 ">
+                    <div>
+                      <div>
+                        <div className="text-white dark:text-black">
+                          <input type="search" className="form-control relative flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding rounded transition ease-in-out m-0  focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Menu.Items>
+              </Transition>
+            </Menu>
+
+
             <button>
               <AiOutlineShoppingCart size={34} className="mr-6" />
             </button>

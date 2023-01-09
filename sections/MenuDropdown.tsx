@@ -100,6 +100,7 @@ const MenuDropdown = () => {
           <AiOutlineShoppingCart size={28} className="mt-1 mr-4 md:mr-6" />
           <CgProfile size={28} className="mt-1 mr-4 md:block" />
 
+          {/* Toggle Button */}
           <Menu as="div" className="relative inline-block mr-5 text-left">
             {/* Toggle Button */}
             <div>
