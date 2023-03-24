@@ -50,12 +50,12 @@ const DataComponent = () => {
   
   return (
     <React.Fragment>
-      <article className="lg:ml-12">
+      <article>
         <Image
           src={mainImage}
           width={500}
           height={200}
-          alt=""
+          alt="Keyboard"
           className="w-full mx-auto lg:mx-0 md:rounded-2xl md:w-7/12 lg:w-11/12"
         />
 
@@ -76,7 +76,7 @@ const DataComponent = () => {
                   width={72}
                   height={200}
                   alt=""
-                  className="mx-auto w-14 md:w-16 lg:w-20 rounded-xl"
+                  className="w-12 mx-auto md:w-16 lg:w-20 rounded-xl"
                 />
               </li>
             ))}

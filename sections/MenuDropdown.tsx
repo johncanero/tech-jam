@@ -73,8 +73,8 @@ const MenuDropdown = () => {
 
   return (
     // Mobile Visibility
-    <div className="px-2">
-      <div className="flex justify-between mt-4 text-right md:mt-6 lg:hidden top-16 w-96 md:w-full md:mx-2 font-ShareTechMono">
+    <div className="dark:bg-neutral-800 dark:text-gray-100">
+      <div className="flex justify-between px-2 mt-4 text-right md:mt-6 lg:hidden top-16 md:w-full md:px-6 font-ShareTechMono">
         <div>
           {/* Image */}
           <Link rel="noopener noreferrer" href="/">
@@ -84,10 +84,10 @@ const MenuDropdown = () => {
                 width={35}
                 height={40}
                 alt="jLogo"
-                className=""
+                className="ml-1"
               />
               {/* Heading Title: Tech Jam */}
-              <h1 className="ml-4 text-3xl font-bold dark:text-green-400 font-Roboto">
+              <h1 className="ml-3 text-3xl font-bold dark:text-green-400 font-Roboto">
                 Tech Jam
               </h1>
             </div>
@@ -97,14 +97,14 @@ const MenuDropdown = () => {
         {/* Dark Mode and Toggle */}
         <div className="z-10 flex">
           {/* Tablet Icons */}
-          <AiOutlineShoppingCart size={28} className="mt-1 mr-4 md:mr-6" />
-          <CgProfile size={28} className="mt-1 mr-4 md:block" />
+          <AiOutlineShoppingCart size={26} className="mt-1 mr-4 md:mr-6" />
+          <CgProfile size={26} className="mt-1 mr-4 md:block" />
 
           {/* Toggle Button */}
-          <Menu as="div" className="relative inline-block mr-5 text-left">
+          <Menu as="div" className="relative inline-block mr-2 text-left">
             {/* Toggle Button */}
             <div>
-              <Menu.Button className="inline-flex justify-center w-full py-2 text-sm font-medium rounded-md text-neutral-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
+              <Menu.Button className="inline-flex justify-center w-full py-1 text-sm font-medium rounded-md text-neutral-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
                 <GiHamburgerMenu
                   className="w-6 h-6 dark:text-white"
                   aria-hidden="true"

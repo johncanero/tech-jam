@@ -59,8 +59,8 @@ const Header = () => {
   };
 
   return (
-    <div>
-      <div className="hidden pt-3 mx-2 lg:block">
+    <div className="dark:bg-neutral-800 dark:text-gray-100">
+      <div className="hidden pt-3 mx-auto lg:block sm:max-w-sm md:max-w-3xl lg:max-w-6xl">
         <header className="flex items-center justify-between h-16 mt-1 md:mt-3 font-ShareTechMono">
           {/* Justify Between: Left */}
           <div className="flex">
@@ -182,7 +182,7 @@ const Header = () => {
             {renderThemeChanger()}
           </div>
         </header>
-        <hr className="h-px mt-8 border-0 bg-neutral-200 dark:bg-neutral-700"></hr>
+        <hr className="h-px mt-8 border-0 bg-neutral-100 dark:bg-neutral-700"></hr>
       </div>
     </div>
   );
