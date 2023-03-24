@@ -17,7 +17,7 @@ const Hero = () => {
     if (amount <= 0) setAmount(0);
   };
   return (
-    <div className="bg-zinc-100 dark:bg-neutral-800 dark:text-gray-100">
+    <div>
       <div className="mx-auto lg:block sm:max-w-sm md:max-w-3xl lg:max-w-7xl">
         <section className="justify-center py-6 pb-12 lg:py-12 lg:flex">
           {/* Hide in Desktop */}

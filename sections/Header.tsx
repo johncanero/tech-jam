@@ -59,7 +59,7 @@ const Header = () => {
   };
 
   return (
-    <div className="dark:bg-neutral-800 dark:text-gray-100">
+    <div className="bg-white dark:bg-neutral-800 dark:text-gray-100">
       <div className="hidden pt-3 mx-auto lg:block sm:max-w-sm md:max-w-3xl lg:max-w-6xl">
         <header className="flex items-center justify-between h-16 mt-1 md:mt-3 font-ShareTechMono">
           {/* Justify Between: Left */}
