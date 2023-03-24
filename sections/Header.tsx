@@ -10,7 +10,8 @@ import { CgProfile } from "@react-icons/all-files/cg/CgProfile";
 import { AiOutlineSearch } from "@react-icons/all-files/ai/AiOutlineSearch"
 // headless UI
 import { Menu, Transition } from "@headlessui/react";
-
+// Framer-Motion
+import { motion } from "framer-motion"
 
 const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -77,9 +78,17 @@ const Header = () => {
               </Link>
               <Link rel="noopener noreferrer" href="/">
                 {/* Heading Title: Tech Jam */}
-                <h1 className="mt-1 ml-6 text-4xl font-black dark:text-green-400 font-Roboto">
-                  Tech Jam
-                </h1>
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{
+                    duration: 1,
+                  }}
+                >
+                  <h1 className="mt-1 ml-6 text-4xl font-black dark:text-green-400 font-ShareTech">
+                    Tech Jam
+                  </h1>
+                </motion.div>
               </Link>
             </div>
 
