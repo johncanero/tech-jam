@@ -1,11 +1,15 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import Head from "next/head";
 import Header from "../sections/Header";
 import Footer from "../sections/Footer";
 // Mobile
 import MenuDropdown from "../sections/MenuDropdown";
 
-const Layout = ({ children }) => {
+interface Props {
+  children: ReactNode;
+}
+
+const Layout = ({ children }: Props) => {
   return (
     <>
       {/* Head */}
@@ -40,4 +44,5 @@ const Layout = ({ children }) => {
     </>
   );
 };
+
 export default Layout;
