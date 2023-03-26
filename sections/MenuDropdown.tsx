@@ -16,6 +16,8 @@ import { AiOutlineSearch } from "@react-icons/all-files/ai/AiOutlineSearch"
 // Header Main Icons
 import { AiOutlineShoppingCart } from "@react-icons/all-files/ai/AiOutlineShoppingCart";
 import { CgProfile } from "@react-icons/all-files/cg/CgProfile";
+// Framer-Motion
+import { motion } from "framer-motion"
 
 const MenuDropdown = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -78,7 +80,13 @@ const MenuDropdown = () => {
         <div>
           {/* Image */}
           <Link rel="noopener noreferrer" href="/">
-            <div className="flex">
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{
+                duration: 1,
+              }}
+              className="flex">
               <Image
                 src="/images/techStore.png"
                 width={35}
@@ -90,7 +98,7 @@ const MenuDropdown = () => {
               <h1 className="ml-3 text-3xl font-bold dark:text-green-400 font-Roboto">
                 Tech Jam
               </h1>
-            </div>
+            </motion.div>
           </Link>
         </div>
 
@@ -127,11 +135,10 @@ const MenuDropdown = () => {
                     {({ active }) => (
                       <Link href="/">
                         <button
-                          className={`${
-                            active
+                          className={`${active
                               ? "bg-violet-500 text-white"
                               : "text-gray-900"
-                          } group flex w-full items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                            } group flex w-full items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <FaHome size={17} />
                           <span className="ml-2">Home</span>
@@ -143,11 +150,10 @@ const MenuDropdown = () => {
                     {({ active }) => (
                       <Link href="/search">
                         <button
-                          className={`${
-                            active
+                          className={`${active
                               ? "bg-violet-500 text-white"
                               : "text-gray-900"
-                          } group flex w-full items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                            } group flex w-full items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <AiOutlineSearch size={17} />
                           <span className="ml-2">Search</span>
@@ -160,11 +166,10 @@ const MenuDropdown = () => {
                     {({ active }) => (
                       <Link href="/categories">
                         <button
-                          className={`${
-                            active
+                          className={`${active
                               ? "bg-violet-500 text-white"
                               : "text-gray-900"
-                          } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                            } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <AiOutlineOrderedList size={17} />
                           <span className="ml-2">Categories</span>
@@ -180,11 +185,10 @@ const MenuDropdown = () => {
                     {({ active }) => (
                       <Link href="/howtobuy">
                         <button
-                          className={`${
-                            active
+                          className={`${active
                               ? "bg-violet-500 text-white"
                               : "text-gray-900"
-                          } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                            } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <AiOutlineQuestionCircle size={17} />
                           <span className="ml-2">How To Buy</span>
@@ -197,11 +201,10 @@ const MenuDropdown = () => {
                     {({ active }) => (
                       <Link href="/about">
                         <button
-                          className={`${
-                            active
+                          className={`${active
                               ? "bg-violet-500 text-white"
                               : "text-gray-900"
-                          } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                            } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <RiFileHistoryLine size={17} />
                           <span className="ml-2">About</span>
@@ -221,11 +224,10 @@ const MenuDropdown = () => {
                         href="/contact"
                       >
                         <button
-                          className={`${
-                            active
+                          className={`${active
                               ? "bg-violet-500 text-white"
                               : "text-gray-900"
-                          } group flex w-72 items-center rounded-md px-2 py-1 text-sm font-Poppins`}
+                            } group flex w-72 items-center rounded-md px-2 py-1 text-sm font-Poppins`}
                         >
                           <AiOutlineMail size={17} />
                           <span className="ml-2">Contact</span>
@@ -240,9 +242,8 @@ const MenuDropdown = () => {
                   <Menu.Item>
                     {({ active }) => (
                       <button
-                        className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
-                        } group flex w-72 items-center rounded-md  py-1 text-sm font-Poppins`}
+                        className={`${active ? "bg-violet-500 text-white" : "text-gray-900"
+                          } group flex w-72 items-center rounded-md  py-1 text-sm font-Poppins`}
                       >
                         {renderThemeChanger()}
                       </button>
