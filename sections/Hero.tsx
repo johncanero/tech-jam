@@ -9,6 +9,8 @@ import { BiMinus } from "@react-icons/all-files/bi/BiMinus";
 import { BiPlus } from "@react-icons/all-files/bi/BiPlus";
 // Framer-Motion
 import { motion } from "framer-motion"
+// Components
+import Categories from "../components/Categories";
 
 const Hero = () => {
   const [amount, setAmount] = useState(0);
@@ -137,6 +139,10 @@ const Hero = () => {
             </p>
           </article>
         </section>
+
+        
+        {/* Categories Section */}
+        <Categories />
       </div>
     </div>
   );
