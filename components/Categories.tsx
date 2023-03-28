@@ -30,7 +30,6 @@ const Categories = () => {
                                 <p className='md:w-28'>Computer and Laptops</p>
                             </div>
                         </Link>
-
                         <Link
                             // target="_blank"
                             rel="noopener noreferrer"
