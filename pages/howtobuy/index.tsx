@@ -59,9 +59,9 @@ const index = () => {
             your order, and be sure to contact the store if you have any
             questions or concerns.
           </p>
-          <p className="mt-4 text-xs font-ShareTechMono md:text-sm dark:text-green-400">
+          {/* <p className="mt-4 text-xs font-ShareTechMono md:text-sm dark:text-green-900">
             From ChatGPT: Optimizing Language Model for Dialogue
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

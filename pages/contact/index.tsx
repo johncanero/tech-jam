@@ -77,7 +77,7 @@ const contact = () => {
                           href="https://www.linkedin.com/in/johncanero/"
                         >
                           <FaLinkedin
-                            className="mr-5 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-cyan-500 hover:-translate-y-1 hover:scale-110"
+                            className="mr-5 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-green-400 hover:-translate-y-1 hover:scale-110"
                             size={30}
                           />
                         </Link>
@@ -87,7 +87,7 @@ const contact = () => {
                           href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=johncanero.official@gmail.com"
                         >
                           <HiOutlineMail
-                            className="mr-5 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-cyan-500 hover:-translate-y-1 hover:scale-110"
+                            className="mr-5 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-green-400 hover:-translate-y-1 hover:scale-110"
                             size={32}
                           />
                         </Link>
@@ -97,7 +97,7 @@ const contact = () => {
                           href="https://github.com/johncanero"
                         >
                           <FaGithub
-                            className="mr-5 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-cyan-500 hover:-translate-y-1 hover:scale-110 animate__animated animate__fadeIn"
+                            className="mr-5 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-green-400 hover:-translate-y-1 hover:scale-110 animate__animated animate__fadeIn"
                             size={30}
                           />
                         </Link>
@@ -107,7 +107,7 @@ const contact = () => {
                           href="https://twitter.com/johncaneroo"
                         >
                           <FaTwitter
-                            className="mr-5 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-cyan-500 hover:-translate-y-1 hover:scale-110"
+                            className="mr-5 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-green-400 hover:-translate-y-1 hover:scale-110"
                             size={30}
                           />
                         </Link>
@@ -117,7 +117,7 @@ const contact = () => {
                           href="https://www.instagram.com/johncanero/"
                         >
                           <FaInstagram
-                            className="mr-0 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-cyan-500 hover:-translate-y-1 hover:scale-110"
+                            className="mr-0 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-green-400 hover:-translate-y-1 hover:scale-110"
                             size={30}
                           />
                         </Link>
