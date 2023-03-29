@@ -13,7 +13,7 @@ const Categories = () => {
                 </div>
                 {/* Categories Tabs */}
                 <div className="text-white bg-white shadow-lg dark:bg-zinc-800 md:mx-12 lg:mx-0 ring-1 ring-black ring-opacity-5">
-                    <div className="flex-col py-1 text-center md:flex-wrap" role="menu" aria-orientation="horizontal" aria-labelledby="options-menu">
+                    <div className="flex-col justify-center py-1 text-center lg:flex-row md:flex md:flex-row md:flex-wrap" role="menu" aria-orientation="horizontal" aria-labelledby="options-menu">
 
                         <Link
                             // target="_blank"
@@ -175,8 +175,8 @@ const Categories = () => {
                             </div>
                         </Link>
 
-                     
-                    
+
+
                     </div>
                 </div>
             </div>
