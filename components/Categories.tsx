@@ -6,25 +6,25 @@ import Link from 'next/link'
 const Categories = () => {
     return (
         <div>
-            <div className='lg:ml-16 hidden md:block font-Roboto'>
+            <div className=' lg:ml-16 md:block font-Roboto'>
                 {/* Categories */}
-                <div className='md:mx-12 lg:mx-0 text-gray-900 bg-white py-2 px-6'>
+                <div className='px-6 py-2 text-gray-900 bg-white dark:bg-zinc-800 dark:text-white md:mx-12 lg:mx-0'>
                     <p>CATEGORIES</p>
                 </div>
                 {/* Categories Tabs */}
-                <div className="shadow-lg md:mx-12 lg:mx-0 bg-white ring-1 ring-black ring-opacity-5">
-                    <div className="py-1 flex md:flex-wrap lg:flex-nowrap text-center" role="menu" aria-orientation="horizontal" aria-labelledby="options-menu">
+                <div className="text-white bg-white shadow-lg dark:bg-zinc-800 md:mx-12 lg:mx-0 ring-1 ring-black ring-opacity-5">
+                    <div className="flex-col py-1 text-center md:flex-wrap" role="menu" aria-orientation="horizontal" aria-labelledby="options-menu">
 
                         <Link
                             // target="_blank"
                             rel="noopener noreferrer"
                             href="/">
-                            <div className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                            <div className="block px-2 py-2 text-sm text-gray-700 dark:text-white hover:bg-gray-100 hover:dark:bg-zinc-700 hover:text-gray-900" role="menuitem">
                                 <Image
                                     src="/images/flaticons/laptop.png"
                                     width={50}
                                     height={45}
-                                    alt="Laptop"
+                                    alt="Computer and Laptops"
                                     className="mx-auto mb-2"
                                 />
                                 <p className='md:w-28'>Computer and Laptops</p>
@@ -34,15 +34,15 @@ const Categories = () => {
                             // target="_blank"
                             rel="noopener noreferrer"
                             href="/">
-                            <div className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                            <div className="block px-2 py-2 text-sm text-gray-700 dark:text-white hover:bg-gray-100 hover:dark:bg-zinc-700 hover:text-gray-900" role="menuitem">
                                 <Image
                                     src="/images/flaticons/keyboard.png"
                                     width={50}
                                     height={45}
-                                    alt="Keyboard"
+                                    alt="Peripherals and Accessories"
                                     className="mx-auto mb-2"
                                 />
-                                <p className='md:w-28'>Peripherals and Accessorie</p>
+                                <p className='md:w-28'>Peripherals and Accessories</p>
                             </div>
                         </Link>
 
@@ -50,12 +50,12 @@ const Categories = () => {
                             // target="_blank"
                             rel="noopener noreferrer"
                             href="/">
-                            <div className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                            <div className="block px-3 py-2 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
                                 <Image
                                     src="/images/flaticons/smartphone.png"
                                     width={50}
                                     height={45}
-                                    alt="Keyboard"
+                                    alt="Mobile Phones and Accessories"
                                     className="mx-auto mb-2"
                                 />
                                 <p className='md:w-28'>Mobile Phones and Accessories</p>
@@ -66,26 +66,117 @@ const Categories = () => {
                             // target="_blank"
                             rel="noopener noreferrer"
                             href="/">
-                            <div className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                            <div className="block px-3 py-2 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
                                 <Image
                                     src="/images/flaticons/audio.png"
                                     width={50}
                                     height={45}
-                                    alt="Keyboard"
+                                    alt="Audio and Video"
                                     className="mx-auto mb-2"
                                 />
                                 <p className='md:w-24'>Audio and Video</p>
                             </div>
                         </Link>
 
+                        <Link
+                            // target="_blank"
+                            rel="noopener noreferrer"
+                            href="/">
+                            <div className="block px-3 py-2 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                                <Image
+                                    src="/images/flaticons/photography.png"
+                                    width={50}
+                                    height={45}
+                                    alt="Cameras and Photography"
+                                    className="mx-auto mb-2"
+                                />
+                                <p className='md:w-24'>Cameras and Photography</p>
+                            </div>
+                        </Link>
 
-        
-                        <a href="#" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Cameras and Photography</a>
-                        <a href="#" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Gaming</a>
-                        <a href="#" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Smart Home</a>
-                        <a href="#" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Network and Internet</a>
-                        <a href="#" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Wearables</a>
-                        <a href="#" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Software</a>
+                        <Link
+                            // target="_blank"
+                            rel="noopener noreferrer"
+                            href="/">
+                            <div className="block px-2 py-2 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                                <Image
+                                    src="/images/flaticons/game-controller.png"
+                                    width={50}
+                                    height={45}
+                                    alt="Gaming"
+                                    className="mx-auto mb-2"
+                                />
+                                <p className='md:w-24'>Gaming</p>
+                            </div>
+                        </Link>
+
+                        <Link
+                            // target="_blank"
+                            rel="noopener noreferrer"
+                            href="/">
+                            <div className="block px-3 py-2 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                                <Image
+                                    src="/images/flaticons/smart-house.png"
+                                    width={50}
+                                    height={45}
+                                    alt="Smart Home"
+                                    className="mx-auto mb-2"
+                                />
+                                <p className='md:w-24'>Smart Home</p>
+                            </div>
+                        </Link>
+
+                        <Link
+                            // target="_blank"
+                            rel="noopener noreferrer"
+                            href="/">
+                            <div className="block px-3 py-2 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                                <Image
+                                    src="/images/flaticons/internet.png"
+                                    width={50}
+                                    height={45}
+                                    alt="Network and Internet"
+                                    className="mx-auto mb-2"
+                                />
+                                <p className='md:w-24'>Network and Internet</p>
+                            </div>
+                        </Link>
+
+                        <Link
+                            // target="_blank"
+                            rel="noopener noreferrer"
+                            href="/">
+                            <div className="block px-2 py-2 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                                <Image
+                                    src="/images/flaticons/smartwatch.png"
+                                    width={50}
+                                    height={45}
+                                    alt="Wearables"
+                                    className="mx-auto mb-2"
+                                />
+                                <p className='md:w-24'>Wearables</p>
+                            </div>
+                        </Link>
+
+
+                        <Link
+                            // target="_blank"
+                            rel="noopener noreferrer"
+                            href="/">
+                            <div className="block px-3 py-2 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                                <Image
+                                    src="/images/flaticons/design-software.png"
+                                    width={50}
+                                    height={45}
+                                    alt="Software"
+                                    className="mx-auto mb-2"
+                                />
+                                <p className='md:w-24'>Software</p>
+                            </div>
+                        </Link>
+
+                     
+                    
                     </div>
                 </div>
             </div>
