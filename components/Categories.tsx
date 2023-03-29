@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Categories = () => {
     return (
         <div>
-            <div className=' lg:ml-16 md:block font-Roboto'>
+            <div className='mx-8 mb-16 md:block font-Roboto'>
                 {/* Categories */}
                 <div className='mx-8 px-6 py-2 text-gray-900 bg-white dark:bg-zinc-800 dark:text-white md:mx-16 lg:mx-0'>
                     <p>CATEGORIES</p>
@@ -18,7 +18,7 @@ const Categories = () => {
                             // target="_blank"
                             rel="noopener noreferrer"
                             href="/">
-                            <div className="block px-2 py-2 text-sm text-gray-700 dark:text-white hover:bg-gray-100 hover:dark:bg-zinc-700 hover:text-gray-900" role="menuitem">
+                            <div className="block px-2 py-4 text-sm text-gray-700 dark:text-white hover:bg-gray-100 hover:dark:bg-zinc-700 hover:text-gray-900" role="menuitem">
                                 <Image
                                     src="/images/flaticons/laptop.png"
                                     width={50}
@@ -33,7 +33,7 @@ const Categories = () => {
                             // target="_blank"
                             rel="noopener noreferrer"
                             href="/">
-                            <div className="block px-2 py-2 text-sm text-gray-700 dark:text-white hover:bg-gray-100 hover:dark:bg-zinc-700 hover:text-gray-900" role="menuitem">
+                            <div className="block px-2 py-4 text-sm text-gray-700 dark:text-white hover:bg-gray-100 hover:dark:bg-zinc-700 hover:text-gray-900" role="menuitem">
                                 <Image
                                     src="/images/flaticons/keyboard.png"
                                     width={50}
@@ -49,7 +49,7 @@ const Categories = () => {
                             // target="_blank"
                             rel="noopener noreferrer"
                             href="/">
-                            <div className="block px-3 py-2 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                            <div className="block px-3 py-4 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
                                 <Image
                                     src="/images/flaticons/smartphone.png"
                                     width={50}
@@ -65,7 +65,7 @@ const Categories = () => {
                             // target="_blank"
                             rel="noopener noreferrer"
                             href="/">
-                            <div className="block px-3 py-2 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                            <div className="block px-3 py-4 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
                                 <Image
                                     src="/images/flaticons/audio.png"
                                     width={50}
@@ -81,7 +81,7 @@ const Categories = () => {
                             // target="_blank"
                             rel="noopener noreferrer"
                             href="/">
-                            <div className="block px-3 py-2 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                            <div className="block px-3 py-4 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
                                 <Image
                                     src="/images/flaticons/photography.png"
                                     width={50}
@@ -97,7 +97,7 @@ const Categories = () => {
                             // target="_blank"
                             rel="noopener noreferrer"
                             href="/">
-                            <div className="block px-2 py-2 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                            <div className="block px-2 py-4 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
                                 <Image
                                     src="/images/flaticons/game-controller.png"
                                     width={50}
@@ -113,7 +113,7 @@ const Categories = () => {
                             // target="_blank"
                             rel="noopener noreferrer"
                             href="/">
-                            <div className="block px-3 py-2 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                            <div className="block px-3 py-4 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
                                 <Image
                                     src="/images/flaticons/smart-house.png"
                                     width={50}
@@ -129,7 +129,7 @@ const Categories = () => {
                             // target="_blank"
                             rel="noopener noreferrer"
                             href="/">
-                            <div className="block px-3 py-2 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                            <div className="block px-3 py-4 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
                                 <Image
                                     src="/images/flaticons/internet.png"
                                     width={50}
@@ -145,7 +145,7 @@ const Categories = () => {
                             // target="_blank"
                             rel="noopener noreferrer"
                             href="/">
-                            <div className="block px-2 py-2 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                            <div className="block px-2 py-4 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
                                 <Image
                                     src="/images/flaticons/smartwatch.png"
                                     width={50}
@@ -162,7 +162,7 @@ const Categories = () => {
                             // target="_blank"
                             rel="noopener noreferrer"
                             href="/">
-                            <div className="block px-3 py-2 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
+                            <div className="block px-3 py-4 text-sm text-gray-700 dark:text-white hover:dark:bg-zinc-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">
                                 <Image
                                     src="/images/flaticons/design-software.png"
                                     width={50}
