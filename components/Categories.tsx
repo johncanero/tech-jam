@@ -8,13 +8,12 @@ const Categories = () => {
         <div>
             <div className=' lg:ml-16 md:block font-Roboto'>
                 {/* Categories */}
-                <div className='px-6 py-2 text-gray-900 bg-white dark:bg-zinc-800 dark:text-white md:mx-12 lg:mx-0'>
+                <div className='mx-8 px-6 py-2 text-gray-900 bg-white dark:bg-zinc-800 dark:text-white md:mx-16 lg:mx-0'>
                     <p>CATEGORIES</p>
                 </div>
                 {/* Categories Tabs */}
-                <div className="text-white bg-white shadow-lg dark:bg-zinc-800 md:mx-12 lg:mx-0 ring-1 ring-black ring-opacity-5">
-                    <div className="flex-col justify-center py-1 text-center lg:flex-row md:flex md:flex-row md:flex-wrap" role="menu" aria-orientation="horizontal" aria-labelledby="options-menu">
-
+                <div className="text-white bg-white shadow-lg dark:bg-zinc-800 md:mx-16 mx-8 lg:mx-0 ring-1 ring-black ring-opacity-5">
+                    <div className="justify-center py-1 text-center flex-wrap lg:flex-row md:flex md:flex-row md:flex-wrap" role="menu" aria-orientation="horizontal" aria-labelledby="options-menu">
                         <Link
                             // target="_blank"
                             rel="noopener noreferrer"
