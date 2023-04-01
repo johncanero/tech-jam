@@ -72,7 +72,7 @@ const Header = () => {
                   src="/images/techStore.png"
                   width={50}
                   height={45}
-                  alt="aLogo"
+                  alt="techStoreLogo"
                   className=""
                 />
               </Link>
