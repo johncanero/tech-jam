@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 // Framer-Motion
@@ -8,6 +9,18 @@ import { motion } from "framer-motion"
 const index = () => {
   return (
     <div>
+      <Head>
+        <title>About / Tech Jam</title>
+        <meta
+          name="description"
+          content="About: Tech Jam"
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content="About: Tech Jam" />
+        <meta property="og:description" content="About: Tech Jam" />
+        {/* Sitemap */}
+      </Head>
+
       <div className="mx-auto lg:pl-16 sm:max-w-sm md:max-w-3xl lg:max-w-7xl lg:flex">
         {/* Column 1 */}
         <div>

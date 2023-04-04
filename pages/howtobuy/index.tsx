@@ -1,10 +1,22 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import Head from "next/head";
 import { AiOutlineQuestionCircle } from "@react-icons/all-files/ai/AiOutlineQuestionCircle";
 
 const index = () => {
   return (
     <div>
+      <Head>
+        <title>How To Buy / Tech Jam</title>
+        <meta
+          name="description"
+          content="How To Buy: Tech Jam"
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content="How To Buy: Tech Jam" />
+        <meta property="og:description" content="How To Buy: Tech Jam" />
+        {/* Sitemap */}
+      </Head>
       <div className="mx-auto lg:pl-16 sm:max-w-sm md:max-w-3xl lg:max-w-7xl">
         <h1 className="flex justify-center gap-3 mt-6 text-2xl font-bold lg:justify-start md:text-3xl font-ShareTechMono dark:text-green-400">
           How To Buy{" "}
