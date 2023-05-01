@@ -33,13 +33,16 @@ with Backlit Keys. Come and buy now!
 
 🪟: [Desktop - Tablet - Mobile]
 
+Responsive Feauture Application
+![Desktop View - Tech Jam Marketplace Website](./public/responsive/TechJamApplicationLight.png)
+![Desktop View - Tech Jam Marketplace Website](./public/responsive/TechJamApplicationDark.png)
 Desktop Responsive Light
-![Desktop View - Architecture News Homepage Website](./public/responsive/TechJamDesktopLight.jpg)
-Desktop Responsive Light: How To Buy
-![Desktop View - Architecture News Homepage Website](./public/responsive/TechJamDesktopLightHowToBuy.jpg)
+![Desktop View - Tech Jam Marketplace Website](./public/responsive/TechJamDesktopLight.jpg)
 Desktop Responsive Dark
-![Desktop View - Architecture News Homepage Website](./public/responsive/TechJamDesktopDark.jpg)
+![Desktop View - Tech Jam Marketplace Website](./public/responsive/TechJamDesktopDark.jpg)
+Desktop Responsive Light - Categories
+![Desktop View - Tech Jam Marketplace Website](./public/responsive/TechJamDesktopLight-Categories.jpg)
 Tablet Responsive | Light and Dark
-![Tablet View - Architecture News Homepage Website](./public/responsive/TechJamTabletLightDark.jpg)
+![Tablet View - Tech Jam Marketplace Website](./public/responsive/TechJamTablet.jpg)
 Mobile Responsive | Light and Dark
-![Mobile View - Architecture News Homepage Website](./public/responsive/TechJamMobileLightDark.jpg)
+![Mobile View - Tech Jam Marketplace Website](./public/responsive/TechJamMobile.jpg)
