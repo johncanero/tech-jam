@@ -33,7 +33,7 @@ with Backlit Keys. Come and buy now!
 
 🪟: [Desktop - Tablet - Mobile]
 
-Responsive Feauture Application
+Responsive Feature Application
 ![Desktop View - Tech Jam Marketplace Website](./public/responsive/TechJamApplicationLight.png)
 ![Desktop View - Tech Jam Marketplace Website](./public/responsive/TechJamApplicationDark.png)
 Desktop Responsive Light
