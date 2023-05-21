@@ -18,6 +18,7 @@ import { AiOutlineShoppingCart } from "@react-icons/all-files/ai/AiOutlineShoppi
 import { CgProfile } from "@react-icons/all-files/cg/CgProfile";
 // Framer-Motion
 import { motion } from "framer-motion"
+import Login from "../components/Login";
 
 const MenuDropdown = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -105,8 +106,8 @@ const MenuDropdown = () => {
         {/* Dark Mode and Toggle */}
         <div className="z-10 flex">
           {/* Tablet Icons */}
-          <AiOutlineShoppingCart size={26} className="mt-1 mr-4 md:mr-6" />
-          <CgProfile size={26} className="mt-1 mr-4 md:block" />
+          <AiOutlineShoppingCart size={26} className="mt-1 mr-4 md:mr-4" />
+          <Login />
 
           {/* Toggle Button */}
           <Menu as="div" className="relative inline-block mr-2 text-left">
