@@ -3,20 +3,31 @@ import { useSession, signIn, signOut } from "next-auth/react"
 
 type Props = {};
 
+
 const Login: React.FC<Props> = ({ }) => {
+    const { data: session } = useSession();
     return (
         <div>
-            {/* Login Button (Next Auth) */}
-            <button onClick={(e) => {
-                e.preventDefault()
-                signIn()
-            }} >
-                <CgProfile size={34} className="mr-6 mt-3" />
-            </button>
+            {session ? (
+                // Render Google image instead of the CgProfile icon
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                    onClick={(() => signOut())}
+                    src={session.user?.image!}
+                    alt='user-avatar'
+                    className='w-10 h-10 mx-auto mt-2 mb-2 mr-3 rounded-full cursor-pointer 2xl:h-12 2xl:w-12 hover:opacity-50'
+                />
+            ) : (
+                // Render the login button
+                <button onClick={(e) => {
+                    e.preventDefault();
+                    signIn();
+                }}>
+                    <CgProfile size={32} className="mr-3 mt-3" />
+                </button>
+            )}
         </div>
     )
 }
 
 export default Login
-
-
