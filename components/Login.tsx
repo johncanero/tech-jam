@@ -21,7 +21,7 @@ const Login: React.FC<Props> = ({ }) => {
                 // Render the login button
                 <button onClick={(e) => {
                     e.preventDefault();
-                    signIn();
+                    signIn('google');
                 }}>
                     <CgProfile size={32} className="lg:mr-3 lg:mt-3 md:mr-4 mr-3" />
                 </button>
