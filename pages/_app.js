@@ -1,15 +1,20 @@
-import { ThemeProvider } from 'next-themes'
-import Layout from '../components/Layout'
-import '../styles/globals.css'
+import { ThemeProvider } from "next-themes";
+import Layout from "../components/Layout";
+import "../styles/globals.css";
+// Next Auth
+import { SessionProvider } from "next-auth/react";
 
-function MyApp({ Component, pageProps }) {
+export default function App({
+  Component,
+  pageProps: { session, ...pageProps },
+}) {
   return (
-    <ThemeProvider attribute="class">
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
-    </ThemeProvider>
-  )
+    <SessionProvider session={session}>
+      <ThemeProvider attribute="class">
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </ThemeProvider>
+    </SessionProvider>
+  );
 }
-
-export default MyApp

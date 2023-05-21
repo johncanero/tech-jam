@@ -6,12 +6,12 @@ import { Fragment, useState, useEffect } from "react";
 import Button from "../components/Button";
 // Icons
 import { AiOutlineShoppingCart } from "@react-icons/all-files/ai/AiOutlineShoppingCart";
-import { CgProfile } from "@react-icons/all-files/cg/CgProfile";
 import { AiOutlineSearch } from "@react-icons/all-files/ai/AiOutlineSearch"
 // headless UI
 import { Menu, Transition } from "@headlessui/react";
 // Framer-Motion
 import { motion } from "framer-motion"
+import Login from "../components/Login";
 
 const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -133,14 +133,6 @@ const Header = () => {
               >
                 Contact
               </Link>
-
-              {/* <Link
-                rel="noopener noreferrer"
-                href="/"
-                className="mt-1 text-lg font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-30"
-              >
-                Warranty
-              </Link> */}
             </ul>
           </div>
 
@@ -185,9 +177,9 @@ const Header = () => {
               <AiOutlineShoppingCart size={34} className="mr-6" />
             </button>
 
-            <button>
-              <CgProfile size={34} className="mr-6" />
-            </button>
+            {/* Login Button: Profile */}
+            <Login />
+
             {renderThemeChanger()}
           </div>
         </header>
