@@ -170,7 +170,7 @@ const MenuDropdown = () => {
                           className={`${active
                               ? "bg-violet-500 text-white"
                               : "text-gray-900"
-                            } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                            } group flex items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <AiOutlineOrderedList size={17} />
                           <span className="ml-2">Categories</span>
@@ -189,7 +189,7 @@ const MenuDropdown = () => {
                           className={`${active
                               ? "bg-violet-500 text-white"
                               : "text-gray-900"
-                            } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                            } group flex items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <AiOutlineQuestionCircle size={17} />
                           <span className="ml-2">How To Buy</span>
@@ -205,7 +205,7 @@ const MenuDropdown = () => {
                           className={`${active
                               ? "bg-violet-500 text-white"
                               : "text-gray-900"
-                            } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                            } group flex items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <RiFileHistoryLine size={17} />
                           <span className="ml-2">About</span>
@@ -228,7 +228,7 @@ const MenuDropdown = () => {
                           className={`${active
                               ? "bg-violet-500 text-white"
                               : "text-gray-900"
-                            } group flex w-72 items-center rounded-md px-2 py-1 text-sm font-Poppins`}
+                            } group flex items-center rounded-md px-2 py-1 text-sm font-Poppins`}
                         >
                           <AiOutlineMail size={17} />
                           <span className="ml-2">Contact</span>
@@ -244,34 +244,13 @@ const MenuDropdown = () => {
                     {({ active }) => (
                       <button
                         className={`${active ? "bg-violet-500 text-white" : "text-gray-900"
-                          } group flex w-72 items-center rounded-md  py-1 text-sm font-Poppins`}
+                          } group flex items-center rounded-md  py-1 text-sm font-Poppins`}
                       >
                         {renderThemeChanger()}
                       </button>
                     )}
                   </Menu.Item>
                 </div>
-
-                {/* Bio Link */}
-                {/* <div className="px-1 py-1 pb-2">
-                <Menu.Item>
-                  {({ active }) => (
-                    <Link
-                      // target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://bio.link/johncanero"
-                    >
-                      <button
-                        className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
-                        } group flex w-72 items-center rounded-md px-2 py-1 text-sm font-Poppins`}
-                      >
-                        <span className="ml-2">@johncanero</span>
-                      </button>
-                    </Link>
-                  )}
-                </Menu.Item>
-              </div> */}
               </Menu.Items>
             </Transition>
           </Menu>
