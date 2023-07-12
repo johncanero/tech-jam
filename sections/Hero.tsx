@@ -22,7 +22,7 @@ const Hero = () => {
   };
   return (
     <div>
-      <div className="mx-auto lg:block sm:max-w-sm md:max-w-3xl lg:max-w-7xl">
+      <div className="mx-auto lg:block sm:max-w-md md:max-w-3xl lg:max-w-7xl">
         <section className="justify-center py-6 pb-12 lg:py-12 lg:flex">
           {/* Hide in Desktop */}
           <motion.div
@@ -33,7 +33,7 @@ const Hero = () => {
               duration: 0.4,
             }}
           >
-            <h2 className="block px-3 mb-3 text-lg font-bold text-green-500 md:text-left dark:text-green-400 md:ml-12 md:mb-4 lg:hidden lg:mt-0 font-ShareTechMono">
+            <h2 className="block mb-3 px-3 text-lg font-bold text-green-500 md:text-left dark:text-green-400 md:ml-12 md:mb-4 lg:hidden lg:mt-0 font-ShareTechMono">
               Technology Marketplace
             </h2>
           </motion.div>
